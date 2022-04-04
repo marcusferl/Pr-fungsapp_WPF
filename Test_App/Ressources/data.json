@@ -254,9 +254,4 @@
     "Question": "Erkläte den Begriff Infrastructure as a Service (IaaS)",
     "Answer": "IaaS bedeutet ein traditionelles Rechenzentrum in einer Cloud virtuell abzubilden bzw. zu hosten, es werden keine Physischen Hosts mehr benötigt, da man nun Virtuell über die Cloud auf Rechnerinstanzen zugreifen kann"
   }
-  {
-    "ID": "",
-    "Question": "",
-    "Answer": ""
-  }
 ]
