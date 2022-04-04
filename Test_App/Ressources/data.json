@@ -228,5 +228,35 @@
     "ID": "45",
     "Question": "Welche Merkmale hat ein Virtual Private Network?",
     "Answer": "Ein VPN bietet eine geschützte Verbindung, bei der mit Hilfe von Verschlüsselungstechnologien die Authentizität, Vertraulichkeit und Integrität der Daten sicher gestellt werden. \n Es gibt bei VPN 3 Verbindungsarten (End - End, End- Site, Site - Site)"
+  },
+  {
+    "ID": "46",
+    "Question": "Welche Anwendungen oder Verfahren verwenden kryptografische Hashfunktionen?",
+    "Answer": "Integritätsprüfungen / Erzeugen von Prüfsummen / Sitzungs - Schlüssel / Einmal Passwörter / Speichern von Passwörtern / Digitale Signaturen"
+  },
+  {
+    "ID": "47",
+    "Question": "In der Informationssicherheit kommt es neben Sicherheits - und Datenschutzaspekten auch auf die Datenminimierung an. Welches sind die Ziele?",
+    "Answer": "So viel Daten wie nötig, mit so wenig Daten wie möglich. Daten minimierung ist einer der grundlegenden Regeln im Datenschutz"
+  },
+  {
+    "ID": "48",
+    "Question": "Was sind die Ziele einer Machbarkeitsanalyse?",
+    "Answer": " Folgendes stellt sich bei einer Machbarkeitsanalyse raus : Realisierbarkeit eines Projekts / Organisatorisch umsetzbar / Rechtlich umsetzbar / lohnt es sich hinsichtlich der Wirtschaftlichkeit / Sind genug Ressoursen vorhanen / Zeitlich machbar"
+  },
+  {
+    "ID": "49",
+    "Question": "Was versteht man unter dem Begriff Green - IT?",
+    "Answer": "Die Nutzung von Informationstechnologie und Kommunikationstechnologie über deren gesammten Lebenszyklus hinweg ressoursend schonend gestalten. Video Konferenzen, statt fahrten zu Meetings / Stromsparmodis / Virtualisierungstechniken"
+  },
+  {
+    "ID": "50",
+    "Question": "Erkläte den Begriff Infrastructure as a Service (IaaS)",
+    "Answer": "IaaS bedeutet ein traditionelles Rechenzentrum in einer Cloud virtuell abzubilden bzw. zu hosten, es werden keine Physischen Hosts mehr benötigt, da man nun Virtuell über die Cloud auf Rechnerinstanzen zugreifen kann"
+  }
+  {
+    "ID": "",
+    "Question": "",
+    "Answer": ""
   }
 ]
