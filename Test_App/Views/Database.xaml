@@ -6,35 +6,41 @@
       xmlns:local="clr-namespace:Test_App.Views"
       mc:Ignorable="d" 
       d:DesignHeight="525" d:DesignWidth="602">
+    <Page.Resources>
+        <DataTemplate x:Key="datas">
+            <Border Name="border" BorderBrush="DarkSlateBlue" BorderThickness="2"  
+      CornerRadius="2" Padding="5" Margin="5" Background="WhiteSmoke">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
 
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
 
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="*"/>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
-        </Grid.RowDefinitions>
+                    <TextBlock Grid.Row="0" Grid.Column="0" Padding="0,0,5,0" Text="ID:"/>
+                    <TextBlock Grid.Row="0" Grid.Column="1" Text="{Binding Path=ID}"/>
+                    <TextBlock Grid.Row="1" Grid.Column="0" Padding="0,0,5,0" Text="Question: "/>
+                    <TextBlock Grid.Row="1" Grid.Column="1" Text="{Binding Path=Question}"/>
+                    <TextBlock Grid.Row="2" Grid.Column="0" Padding="0,0,5,0" Text="Answer:"/>
+                    <TextBlock Grid.Row="2" Grid.Column="1" Text="{Binding Path=Answer}"/>
+                   
+                </Grid>
+            </Border>
+        </DataTemplate>
+    </Page.Resources>
 
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="Auto" />
-            <ColumnDefinition />
-        </Grid.ColumnDefinitions>
-
-        <TextBlock Grid.Row="0" Grid.Column="0" Padding="0,0,5,0" Text="ID:"/>
-        <TextBlock Grid.Row="0" Grid.Column="1" Text="{Binding Path=ID}"/>
-        <TextBlock Grid.Row="1" Grid.Column="0" Padding="0,0,5,0" Text="Name:"/>
-        <TextBlock Grid.Row="1" Grid.Column="1" Text="{Binding Path=Name}"/>
-        <TextBlock Grid.Row="2" Grid.Column="0" Padding="0,0,5,0" Text="Gender:"/>
-        <TextBlock Grid.Row="2" Grid.Column="1" Text="{Binding Path=Gender}"/>
-        <TextBlock Grid.Row="3" Grid.Column="0" Padding="0,0,5,0" Text="Class:"/>
-        <TextBlock Grid.Row="3" Grid.Column="1" Text="{Binding Path=Class}"/>
-        <TextBlock Grid.Row="4" Grid.Column="0" Padding="0,0,5,0" Text="Seat:"/>
-        <TextBlock Grid.Row="4" Grid.Column="1" Text="{Binding Path=Seat}"/>
-        <TextBlock Grid.Row="5" Grid.Column="0" Padding="0,0,5,0" Text="Comment:"/>
-        <TextBlock Grid.Row="5" Grid.Column="1" Text="{Binding Path=Comment}"/>
-    </Grid>
-    
+    <DockPanel>
+        <Label DockPanel.Dock="Top" FontSize="20" Margin="5" Content="Database"/>
+        <ListBox x:Name="datalist"
+            ItemsSource="{Binding}"
+            ItemTemplate="{StaticResource datas}"
+            HorizontalAlignment="Stretch"
+            IsSynchronizedWithCurrentItem="True"
+            Margin="5,0,5,5" />
+    </DockPanel>
 </Page>

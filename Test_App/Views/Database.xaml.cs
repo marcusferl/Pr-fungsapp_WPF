@@ -20,13 +20,34 @@ namespace Test_App.Views
     /// </summary>
     public partial class Database : Page
     {
-        
+
         public Database()
         {
             InitializeComponent();
 
-           
-            
+            OutputJson();
+
         }
+        public void OutputJson()
+
+        {
+            string json = "";
+            var webclient = new System.Net.WebClient();
+            webclient.Encoding = Encoding.UTF8;
+            try
+            {
+                json = webclient.DownloadString("https://git.weifer.org/weifer/Pruefungskatalog/raw/branch/master/assets/questions_answers.json");
+            }
+            catch (System.Net.WebException e)
+            {
+                throw e;
+            }
+
+
+            datalist.ItemsSource = Newtonsoft.Json.JsonConvert.DeserializeObject<List<Ressources.Datas>>(json);
+        }
+
     }
 }
+
+
