@@ -47,7 +47,35 @@ namespace Test_App.Views
             datalist.ItemsSource = Newtonsoft.Json.JsonConvert.DeserializeObject<List<Ressources.Datas>>(json);
         }
 
+        private void border_MouseEnter(object sender, MouseEventArgs e)
+        {
+            Border border = sender as Border;
+            border.Background = new SolidColorBrush(Colors.LightGray);
+        }
+
+        private void border_MouseLeave(object sender, MouseEventArgs e)
+        {
+            Border border = sender as Border;
+            border.Background = new SolidColorBrush(Colors.WhiteSmoke);
+        }
+
+        private void itemOnClick(object sender, MouseButtonEventArgs e)
+        {
+            Ressources.Datas current = datalist.SelectedItem as Ressources.Datas;
+
+            TextBox textBox = new TextBox();
+            textBox.Style = (Style)FindResource("Custom_Window");
+            textBox.Text = "Antwort: \n" + current.Answer + "\n";
+
+            Window window = new Window();
+            window.Width = 550;
+            window.Height = 300;
+            window.SizeToContent = SizeToContent.WidthAndHeight;
+            window.Content = textBox;
+            window.Show();
+        }
     }
 }
+
 
 

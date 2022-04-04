@@ -7,9 +7,9 @@
       mc:Ignorable="d" 
       d:DesignHeight="525" d:DesignWidth="602">
     <Page.Resources>
-        <DataTemplate x:Key="datas">
+        <DataTemplate x:Key="datas" >
             <Border Name="border" BorderBrush="DarkSlateBlue" BorderThickness="2"  
-      CornerRadius="2" Padding="5" Margin="5" Background="WhiteSmoke">
+                Padding="5" Margin="5" Background="WhiteSmoke" Width="700" MouseEnter="border_MouseEnter" MouseLeave="border_MouseLeave" CornerRadius="10,10,10,10">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="*"/>
@@ -27,7 +27,7 @@
                     <TextBlock Grid.Row="1" Grid.Column="0" Padding="0,0,5,0" Text="Question: "/>
                     <TextBlock Grid.Row="1" Grid.Column="1" Text="{Binding Path=Question}"/>
                     <TextBlock Grid.Row="2" Grid.Column="0" Padding="0,0,5,0" Text="Answer:"/>
-                    <TextBlock Grid.Row="2" Grid.Column="1" Text="{Binding Path=Answer}"/>
+                    <TextBlock Name="answer_id" Grid.Row="2" Grid.Column="1" Text="{Binding Path=Answer}"/>
                    
                 </Grid>
             </Border>
@@ -35,12 +35,12 @@
     </Page.Resources>
 
     <DockPanel>
-        <Label DockPanel.Dock="Top" FontSize="20" Margin="5" Content="Database"/>
         <ListBox x:Name="datalist"
+            Background="#232041"
             ItemsSource="{Binding}"
             ItemTemplate="{StaticResource datas}"
             HorizontalAlignment="Stretch"
             IsSynchronizedWithCurrentItem="True"
-            Margin="5,0,5,5" />
+            Margin="5,0,5,5" Width="750" MouseDoubleClick="itemOnClick"/>
     </DockPanel>
 </Page>
