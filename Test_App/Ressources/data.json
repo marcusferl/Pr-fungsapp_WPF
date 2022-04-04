@@ -1,0 +1,232 @@
+[
+  {
+    "ID": "0",
+    "Question": "Was versteht man unter dem Begriff Cross-Selling?",
+    "Answer": "Eine Verkaufsstrategie, bei der zu einem Produkt, zusätzliche ( inhalte, produkte, services etc...) angeboten werden, um einen höheren Umsatz und die Kundenanbindung zu erhöhen"
+  },
+  {
+    "ID": "1",
+    "Question": "Welche Aufgaben hat ein Domain Name System (DNS) in einer Windows Domänen - Landschaft bzw. Active Desktop?",
+    "Answer": "DNS ist der wichtigste Dienst in IP-basierten Netzwerken. Konkret wird dabei der angefragte Name in eine Ip-Adresse übersetzt und als Ergebnis der Anfrage zurück geliefert. In Windowsbasierten Domänen kommt zusätzlich der Reverse Lookup Anfrage die Aufgabe zu, eine angefragte Ip- Adresse als Name zu ermitteln und als Ergebnis zurückzuliefern."
+  },
+  {
+    "ID": "2",
+    "Question": "Was versteht man im Netzwerkbereich unter dem Quality of Service",
+    "Answer": "Qos bezeichnet eine Art Güte bzw. Qualität eines Dienstes, welche über Ip-Netzwerke genutzt wird. Spezielle Echtzeitanwendungen wie VIDeo- oder Sprachkommunikation über IP-Netze unterliegen vielen Qualitätsbeeinträchtigungen, um diese (Latenz, Jitter, Paketverlust) entgegenzuwirken gibt es verschiedene Möglichkeiten durch Priorisierung des Datenverkehrs, Datenreservierung, Datenraten limitierung die Datenkommunikation zu verbessern"
+  },
+  {
+    "ID": "3",
+    "Question": "Was sind Bestandteile einer Risikoanalyse?",
+    "Answer": "Sie dient dem Zweck der Risikobeurteilung, Risikobewältigung und Risikokommunikation, um Transparenz über Art und Umfang von bestehenden Risiken zu schaffen. Risiken können durch Präventionsmaßnahmen offengelegt, vermieden oder zumindest reduziert werden"
+  },
+  {
+    "ID": "4",
+    "Question": "Nenne 3 charakteristische Eigenschaften von Open Source Software",
+    "Answer": "Quelltext ist öffentlich und lesbar / darf beliebig genutzt, kopiert, verteilt werden / darf verändert und in veränderter Form weiter gegeben werden"
+  },
+  {
+    "ID": "5",
+    "Question": "In welchen Softwaresystem werden in der Regel Supportanfragen verarbeitet?",
+    "Answer": "Ticket-System / User-Helpdesk-System / Support-Ticket-System / Service-Ticket-System / Task-Tracking-System / Request-Tracking-System"
+  },
+  {
+    "ID": "6",
+    "Question": "Beschreibe den Begriff Pre-Sales-Angebot und nenne 2 Beispiele",
+    "Answer": "Unentgeldlicher Service, der zur Kunden und Auftragsgewinnung dient. Beispiele : Kostenlose Probefahrten / Kostenlose Informationsveranstaltungen / Kostenlose Kataloge oder Produktproben"
+  },
+  {
+    "ID": "7",
+    "Question": "Welche allgemeine Anforderungen werden an ein Datenbanksystem gestellt?",
+    "Answer": "Datenunabhängigkeit / Effizienter Speicherzugriff / Paralleler Datenzugriff / Datenkonsistenz / Datenintegrität / Gemeinsame Datenbasis / Datensicherheit / Wiederherstellungsverfahren / Abfragesprache / Keine bzw. kontrollierte Redundanz"
+  },
+  {
+    "ID": "8",
+    "Question": "Was versteht man in der Anwendungsentwicklung unter einem Mockup?",
+    "Answer": "Mockup ist ein Grafischer entwurf, von zum beispiel einer Webseite oder App. Es dient dazu IDeen und Konzepte bezüglich eines Designs zu visualisieren und zu evaluieren. Mockups müssen nicht perfekt sein, jedoch klar erkennen lassen, wo die Reise hingeht"
+  },
+  {
+    "ID": "9",
+    "Question": "Welche Arten von Äußerungen sind in einem Kundengespräch eher blockierend?",
+    "Answer": "Belehrungen / Äußerungen wie: das können nur wir / Erzeugen von Druck / Termindruck auf den Kunden / Konkurrenz runter machen"
+  },
+  {
+    "ID": "10",
+    "Question": "Was ist eine Nutzwertanalyse?",
+    "Answer": "Eine allgemeine EntscheIDungshilfe, bei der mithilfe eines Punkteverfahrens oder eines Scoring Modells, verschiedene Bewertungskriterien erstellt und verglichen. Der Punktemaßstab kann indivIDuell festgelegt werden"
+  },
+  {
+    "ID": "11",
+    "Question": "Vorteile einer Bedarfsanalyse.",
+    "Answer": "Vertrauen von Kunden wird gestärkt / IndivIDuelle Lösungen / Hebt sich von der Konkurrenz ab / Umsatz kann gesteigert werden / Langfristige Kundenbindung wird gestützt"
+  },
+  {
+    "ID": "12",
+    "Question": "Welche Kosten entstehen für ein Rechenzentrum mit einer Server Client Struktur?",
+    "Answer": "Kauf / Miete für Gebäude / Anschaffungskosten / Lizenzgebühren / Energiekosten / Wartung / Versicherungen / Sicherheitstechnik / Brandschutz"
+  },
+  {
+    "ID": "13",
+    "Question": "Welche VIDeo Schnittstellen sind für 4K und 8K Auflösung geeignet?",
+    "Answer": "HDMI 2.0 = 4K / HDMI 2.1 = 8K / DP ab 1.3 8K"
+  },
+  {
+    "ID": "14",
+    "Question": "Was versteht man in einem Klassendiagramm unter einer Komposition?",
+    "Answer": "Die Komposition bildet den assoziativen Fall ab, bei dem Teile nicht ohne das Ganze existieren können. Ein Kontinent gibt es ohne Erde nicht"
+  },
+  {
+    "ID": "15",
+    "Question": "Was versteht man in der Anwendungsentwicklung unt dem Begriff IDE?",
+    "Answer": "Integrierte Entwicklungsumgebung, ist eine Sammlung an Werkzeugen zur Softwareentwicklung die unter einer Einheitlichen Oberfläche agieren. Dazu gehören zum Beispiel: Compiler / Interpreter / Linker / Debugger / Editor"
+  },
+  {
+    "ID": "16",
+    "Question": "Erläutere den Unterschied zwischen Compiler und Interpreter.",
+    "Answer": "Der Compiler wandelt den Quellcode in lesbare Maschinensprache um, erst dann wird der Code ausgeführt. Fehler fallen somit vor der Kompilierung auf. Der Interpreter verarbeitet den Quellcode erst zu Laufzeit, Zeile für Zeile"
+  },
+  {
+    "ID": "17",
+    "Question": "Wie kann man mit hilfe des Terminals in Windows Namensauflösungen prüfen?",
+    "Answer": "Mit den Befehlen: ping -a / nslookup / tracert"
+  },
+  {
+    "ID": "18",
+    "Question": "Welche nutzen haben Frameworks in der Anwendungsentwicklung?",
+    "Answer": "Frameworks sind eine Art Softwareplattform. Sie bieten ein Gerüst und Struktur für eine künftige Anwendung. Frameworks enthalten Standartmodule, Bibliotheken und API´s, welche sich auf das jeweilige Framework spezialisieren"
+  },
+  {
+    "ID": "19",
+    "Question": "Nenne die wesentlichen Bestandteile eines Kaufvertrages.",
+    "Answer": "Vertragsparteien / Kaufpreis / Lieferbedingungen / Zahlungsmittel / Gegenstand / Rechte des Käufers"
+  },
+  {
+    "ID": "20",
+    "Question": "Welche regeln sollte man beim telefonischem Kundensupport beachten?",
+    "Answer": "Kunden nicht reizen / Immer zuhören / Ausreden lassen / nicht Wiedersprechen / Hinterfragen anhand von den W - Fragen"
+  },
+  {
+    "ID": "21",
+    "Question": "Welche aufgaben hat ein DHCP Server in der IT-Struktur",
+    "Answer": "Ein DHCP verteilt automatisch freie Ip Adressen an Geräte, die eine Anfrage stellen. Er vermeIDet doppel Vergabe von IP-Adressen"
+  },
+  {
+    "ID": "22",
+    "Question": "Was versteht man unter IndivIDualsoftware?",
+    "Answer": "Software die für einen bestimmten Anwender / eine bestimmte Anwendergruppe oder für einen speziellen Verwendungszweck entwickelt wurde."
+  },
+  {
+    "ID": "23",
+    "Question": "Nenne verschiedene Cloud Formen.",
+    "Answer": "Public - / Private - / HybrID - / Community - Cloud"
+  },
+  {
+    "ID": "24",
+    "Question": "Was versteht man under einem Pflichtenheft?",
+    "Answer": "Das Pflichtenheft beschreibt wie der Auftragnehmer die Anforderungen des Auftraggebers umsetzen möchte. Sobald der Auftraggeber das Pflichtenheft akzeptiert, wird das Projekt dazu gestartet"
+  },
+  {
+    "ID": "25",
+    "Question": "Was bedeutet EULA während des Installationsprozess?",
+    "Answer": "EULA ist gleich bedeutend wie AGB. In ihr sind Regeln festgelegt, welche bei der benutzung der Software eingehalten werden sollen"
+  },
+  {
+    "ID": "26",
+    "Question": "Welches sind die Ökonomischen Ziele eines Unternehmens?",
+    "Answer": "Ertragsziele / Marktziele / Leistungsziele"
+  },
+  {
+    "ID": "27",
+    "Question": "Was ist eine DMZ?",
+    "Answer": "Eine Demilitarisierte Zone trennt durch ein Subnetz mit Hilfe von Firewall - Routern, das Interne Netzwerk vom externen Netzwerk ab. Die Firewall Router verfügen über Regeln, welche bestimmen, wohin eingehende Packete geleitet werden"
+  },
+  {
+    "ID": "28",
+    "Question": "Beschreibe das Modell Pay-Per-Use in der Informationstechnologie.",
+    "Answer": "PPU ist eine Finanzierungsmodell, bei dem es darum geht, nur die tatsächliche Nutzung von Hard oder Software abzurechnen. Heißt, man zahlt zum beispiel Stündlich"
+  },
+  {
+    "ID": "29",
+    "Question": "Welche 5 Arten von SQL - Kommandos werden Unterschieden?",
+    "Answer": "DML (Data Manipulation) / DDL (Data Definition) / DCL (Data Control) / DQL (Data Query) / TCL (Transaction)"
+  },
+  {
+    "ID": "30",
+    "Question": "Was bedeutet der Begriff Standby oder Offline - USV?",
+    "Answer": "Standby/Offline USV steht für die USV Klasse 3, sie schützt generell nur gegen Stromausfälle und kurzzeitige Spannungsschwankungen. Unter und Überspannung werden in Klasse 3 nicht ausgeglichen"
+  },
+  {
+    "ID": "31",
+    "Question": "Was versteht man unter einer Online - USV?",
+    "Answer": "Online USV entspricht der USV - Klasse 1 und ist die beste Variante für eine Unterbrechungsfreie Stromversorgung. Bei einem Netzausfall erfolgt ein unterbrechungsfreier Übergang auf den Batteriebetrieb"
+  },
+  {
+    "ID": "32",
+    "Question": "UnterscheIDe die Begriffe: Malware, Ransomware und Trojaner.",
+    "Answer": "Malware ist der Oberbegriff für Schadsoftware. Ransomware ist eine Erpressersoftware die Daten verschlüsselt. Trojaner sind harmlos wirkende Programme, welche im Hintergrund Schaden anrichtet"
+  },
+  {
+    "ID": "33",
+    "Question": "Was versteht man unter dem Begriff Prokura?",
+    "Answer": "Prokura ist eine Art Handlungsvollmacht für Personen im Unternehmen, welche nur vom Inhaber oder dessen gesetzlichen Vertreter erteilt werden kann"
+  },
+  {
+    "ID": "34",
+    "Question": "Was versteht man unter einer Meilenstein Planung?",
+    "Answer": "Merkmale einer Meilenstein Planung sind: Form der Projektplanung / grobe Terminplanung / Meilensteine im Projekt transparent machen / übersicht über verzögerung / schaffung von Zwischenzielen / Leistungsfortschritts- orientiert"
+  },
+  {
+    "ID": "35",
+    "Question": "Was bedeutet der Begriff Proprietäre Software?",
+    "Answer": "Proprietäre Software ist das Gegenteil von Open Source Software. Nutzung und weiterverbreitung sind durch Softwarepatente, Urheberrechte, Lizenzen stark eingeschränkt, ein Beispiel wäre Microsoft Windows"
+  },
+  {
+    "ID": "36",
+    "Question": "Welchen Vorteil bringt der Einsatz von Dual Channel Technick?",
+    "Answer": "Im Dual Channel Modus kann der Speichercontroller die Daten auf zwei Arbeitsspeichermodulen gleichzeitig aufteilen. Dadurch verdoppelt sich theoretisch die Datenrate"
+  },
+  {
+    "ID": "37",
+    "Question": "Welche Vorgehensmodelle solltest du im Projektmanagement insbesondere in der Anwendungsentwicklung kennen?",
+    "Answer": "Wasserfallmodell / V-Modell / Spiralmodell / Scrum / Extreme Programming / Kanban"
+  },
+  {
+    "ID": "38",
+    "Question": "UnterscheIDe die 3 Cloud - Computing Begriffe Iaas, Saas und Paas",
+    "Answer": "Iaas: Ersatz für Rechenzentrum / Saas: Software wird als Service zur verfügung gestellt / Paas: Architektur die Entwicklung und Laufzeitumgebung für Software bereitstellt"
+  },
+  {
+    "ID": "39",
+    "Question": "Welche 3 VPN Verbindungen gibt es?",
+    "Answer": "End to End / End to Site / Site to Site"
+  },
+  {
+    "ID": "40",
+    "Question": "Welchem Zweck dient ein Angebotsvergleich?",
+    "Answer": "Grundlage für Zukünftige KaufentscheIDung, bei der z.b Preis, Qualität, Service, Lieferzeit und weitere verglichen werden"
+  },
+  {
+    "ID": "41",
+    "Question": "Worin besteht in der Virtualisierung von Host - Systemen der Unterschied zwischen Typ 1 und Typ 2?",
+    "Answer": "Typ 1 (native oder auch bare - metal) führt Operationen direkt auf der Hardware aus, ein Betriebssystem ist nicht nötig \n Typ 2 benötigt hingegen ein lauffähiges Betriebssystem um über die Treiber auf die Hardware zugreifen zu können. "
+  },
+  {
+    "ID": "42",
+    "Question": "Was versteht man unter einer beruflichen Weiterbildung?",
+    "Answer": "Vertiefung oder Ergänzung von erlangten Beruflichen Kenntnissen über z.B Kurse, Seminare, Meister, und andere Zertifizierungsmaßnahmen"
+  },
+  {
+    "ID": "43",
+    "Question": "Was versteht man unter dem Begriff Cross - Selling",
+    "Answer": "Cross - Selling ist eine Verkaufsstrategie, bei der zu einem Produkt zusätzliche passende Produkte oder Services angeboten werden, um einen Höheren Umsatz zu erreichen und die Kundenbindung zu erhöhen"
+  },
+  {
+    "ID": "44",
+    "Question": "Wie berechnet sich der Deckungsbeitrag bei Unternehmen?",
+    "Answer": " Deckungsbeitrag = Erlös - variable Kosten \n Der Deckungsbeitrag steht zu Deckung der Fixkosten zur Verfügung"
+  },
+  {
+    "ID": "45",
+    "Question": "Welche Merkmale hat ein Virtual Private Network?",
+    "Answer": "Ein VPN bietet eine geschützte Verbindung, bei der mit Hilfe von Verschlüsselungstechnologien die Authentizität, Vertraulichkeit und Integrität der Daten sicher gestellt werden. \n Es gibt bei VPN 3 Verbindungsarten (End - End, End- Site, Site - Site)"
+  }
+]
