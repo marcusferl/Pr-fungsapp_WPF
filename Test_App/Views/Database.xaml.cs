@@ -36,7 +36,7 @@ namespace Test_App.Views
             webclient.Encoding = Encoding.UTF8;
             try
             {
-                json = webclient.DownloadString("https://git.weifer.org/weifer/Pruefungskatalog/raw/branch/master/assets/questions_answers.json");
+                json = webclient.DownloadString("https://git.weifer.org/weifer/Test_App/raw/branch/master/Test_App/Ressources/data.json");
             }
             catch (System.Net.WebException e)
             {
