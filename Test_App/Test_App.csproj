@@ -142,6 +142,7 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <None Include="Ressources\data.json" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -152,6 +153,12 @@
   <ItemGroup>
     <Resource Include="Images\code.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Images\app.png" />
+    <Resource Include="Images\app_datenbank.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Readme.md" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
