@@ -32,22 +32,24 @@
             </StackPanel>
             <Frame x:Name="frame" Grid.Column="1" Content="" Grid.Row="1" NavigationUIVisibility="Hidden"/>
             <Label Grid.Column="1" Content="IHK Prüfungsfragen für Teil 1 FIAE" HorizontalAlignment="Left" VerticalAlignment="Top" Height="65" Width="582" Foreground="White" FontSize="36" FontFamily="Tw Cen MT" Margin="102,10,0,0"/>
-            <TextBlock Name="website" Margin="20,30,19,17" FontSize="20" Foreground="White" FontFamily="Tw Cen MT" Width="160">
-                www.marcusferl.de
+            <TextBlock Name="website" Margin="20,30,19,17" FontSize="20" Foreground="White" FontFamily="Tw Cen MT" Width="130">
+                © Marcus Ferl
                 <TextBlock.Triggers>
                     <EventTrigger RoutedEvent="TextBlock.Loaded">
                         <BeginStoryboard>
                             <Storyboard>
                                 <DoubleAnimation
-            Storyboard.TargetName="website" 
-            Storyboard.TargetProperty="(TextBlock.Width)"
-            To="0.0" Duration="0:0:5" 
-            AutoReverse="True" RepeatBehavior="Forever" />
+                                        Storyboard.TargetName="website" 
+                                        Storyboard.TargetProperty="(TextBlock.Width)"
+                                        To="0.0" Duration="0:0:5" 
+                                        AutoReverse="True" RepeatBehavior="Forever" />
                             </Storyboard>
                         </BeginStoryboard>
                     </EventTrigger>
                 </TextBlock.Triggers>
             </TextBlock>
+            <Label Grid.Column="1" Content="Online Status: " HorizontalAlignment="Left" Margin="684,0,0,0" VerticalAlignment="Center" Background="{x:Null}" Foreground="#FFFDFDFD"/>
+            <Ellipse x:Name="online_status" Grid.Column="1" HorizontalAlignment="Left" Height="13" Margin="767,0,0,0" Stroke="Black" VerticalAlignment="Center" Width="13"/>
         </Grid>
     </Border>
 </Window>

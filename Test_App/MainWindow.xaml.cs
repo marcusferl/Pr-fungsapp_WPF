@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
+using System.Net.Http;
+using System.Net.NetworkInformation;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -15,18 +18,25 @@ using System.Windows.Shapes;
 
 namespace Test_App
 {
+    
     /// <summary>
     /// Interaktionslogik für MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
+        public static Ellipse status { get; set; }
         public MainWindow()
         {
             InitializeComponent();
             frame.NavigationService.Navigate(new Views.HomeView());
+            Ping_Url();
+            status = online_status;
+          
 
         }
-      
+
+
+
 
         // Buttons
         private void home_on_click(object sender, RoutedEventArgs e)
@@ -56,13 +66,30 @@ namespace Test_App
 
         private void Drag_Window(object sender, MouseButtonEventArgs e)
         {
-                if (e.ChangedButton == MouseButton.Left)
-                    this.DragMove();
-         
+            if (e.ChangedButton == MouseButton.Left)
+                this.DragMove();
+
+        }
+        private void Ping_Url()
+        {
+            var hostUrl = "git.weifer.org";
+
+            Ping ping = new Ping();
+            try
+            {
+                PingReply result = ping.Send(hostUrl);
+                online_status.Fill = Brushes.Green;
+            }
+            catch (Exception ex)
+            {
+                online_status.Fill = Brushes.Red;
+                MessageBox.Show("Bitte deine Internetverbindung Prüfen und das Programm neu starten");
+            }
+            
+           
         }
 
 
-        // Json Parser
 
     }
 }

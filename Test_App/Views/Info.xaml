@@ -10,7 +10,7 @@
   Name="MyWipedText"
   Margin="20" 
   Width="480" Height="100" FontSize="48" FontWeight="Bold" Foreground="Maroon">
-  This is wiped text
+  Ist in Arbeit
 
   <!-- Animates the text block's width. -->
         <TextBlock.Triggers>

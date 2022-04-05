@@ -14,3 +14,16 @@ und man viel weniger auf externe Bibliotheken wie z.B in Python abhängig ist.
 <br>
 <br>
 ![Getting Started](Images/app_datenbank.png)
+
+<h4>#Randnotizen</h4>
+
+Runde Fenster Kanten
+
+Menü Button Hover -> Rahmen und Schriftgröße ändert sich (Style erstelen)
+
+Online Status -> Ping zur webseite -> Unterscheidung Server down oder eigenes Internet down
+
+Copy Right als Laufschrift
+
+Doppelklick auf Item in Datenbank -> öffnet neues Fenster mit der Antwort
+

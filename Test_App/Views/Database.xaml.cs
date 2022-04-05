@@ -40,7 +40,8 @@ namespace Test_App.Views
             }
             catch (System.Net.WebException e)
             {
-                throw e;
+                MainWindow.status.Fill = Brushes.Red;
+                MessageBox.Show("Server nicht erreichbar");
             }
 
 
