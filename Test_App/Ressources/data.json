@@ -252,6 +252,51 @@
   {
     "ID": "50",
     "Question": "Erkläte den Begriff Infrastructure as a Service (IaaS)",
-    "Answer": "IaaS bedeutet ein traditionelles Rechenzentrum in einer Cloud virtuell abzubilden bzw. zu hosten, es werden keine Physischen Hosts mehr benötigt, da man nun Virtuell über die Cloud auf Rechnerinstanzen zugreifen kann"
+    "Answer": "IaaS bedeutet ein traditionelles Rechenzentrum in einer Cloud virtuell abzubilden bzw. zu hosten, es werden keine Physischen Hosts mehr benötigt, da man nun Virtuell über die Cloud auf Rechnerinstanzen zugreifen kann."
+  },
+  {
+    "ID": "51",
+    "Question": "Was versteht man unter dem Begriff IT - Benchmarking?",
+    "Answer": "Unter IT - Benchmarking versteht man den Vergleich von Produktion/Dienstleistungen zu anderen Unternehmen. Es dient dazu Leistungslücken zu schließen und Wettbewerbsfähig zu bleiben."
+  },
+  {
+    "ID": "52",
+    "Question": "Nenne einige Vor - und Nachteile eines Tablets.",
+    "Answer": "Vorteile sind: Leichte Handhabung / lange Akkulaufzeit / Touchbedinbarkeit / Wlan / Platzsparend und Kompakt / geringes Gewicht \n Nachteile sind: Oft wenig Speicher / Virtuelle Tastatur / wenig Anschlüsse / nicht Aufrüstbar"
+  },
+  {
+    "ID": "53",
+    "Question": "Was verbirgt sich hinter der Bezeichnung UHD 4K?",
+    "Answer": "Ultra High Definition 4K bezeichnet ein Digitales Videoformat."
+  },
+  {
+    "ID": "54",
+    "Question": "Nenne die Vorteile von PaaS (Platform as a Service).",
+    "Answer": "Tools, Server und Prgrammierumgebungen werden in einer Cloud virtuell zur verfügung gestellt. Man spart sich die Kosten für den Aufbau einer IT - Infrastruktur. Paas bietet eine schnelle Berreitstellung von für die Entwicklung benötigten Tools/Software."
+  },
+  {
+    "ID": "55",
+    "Question": "Welche Aufgabe erfüllt das Befehlszeilenkommando ARP?",
+    "Answer": "Mithilfe des Adress Resolution Protocols wird zur Ip - Adresse, die zugehörige Hardware bzw. Mac - Adresse des Netzwerkinterfaces eines Hosts ermittelt"
+  },
+  {
+    "ID": "56",
+    "Question": "Worin unterscheiden sich die Lichtwellenleiter der Single - und Multimodefasern?",
+    "Answer": "Der Singlemode Glasfaserkern ist wesentlich dünner als der Multimodefasernkern. Dadurch unterschedien sich die übertragungsreichweiten.\nSinglemode bis 10000 Meter / Multimode bis 2000 Meter."
+  },
+  {
+    "ID": "57",
+    "Question": "Was versteht man unter dem Begriff Bottum Up Ansatz beim Projektstrukturplan?",
+    "Answer": "Im Grunde geht es darum Teilprobleme abzugrenzen, diese zu lösen um das Gesammtproblem zu beheben."
+  },
+  {
+    "ID": "58",
+    "Question": "Beschreibe den Begriff Datensicherheit und nenne deren Schutzziele.",
+    "Answer": "Es geht bei der Datensicherheit um den Schutz vor Bedrohungen, wie zum Beispiel: Eindringlinge im System, Stromausfall, Spionage von Dritten. Die Schutzziele sind dabei die Vertraulichkeit, Verfügbarkeit und Integrität."
+  },
+  {
+    "ID": "59",
+    "Question": "Was versteht man bei den Leitsystemen unter einem Mehrliniensystem?",
+    "Answer": "Untergeordnete Stellen, erhalten von mehreren übergeordnetetn stellen, Weisungen."
   }
 ]
