@@ -11,7 +11,8 @@
         ResizeMode="NoResize"
         AllowsTransparency="True"
         MouseDown="Drag_Window"
-        Name="databse_info_window">
+        Name="databse_info_window"
+        Icon="../Images/code.ico">
     <Border Background="#232041" CornerRadius="30,60,30,0">
         <Grid>
             <Grid.RowDefinitions>
@@ -21,7 +22,7 @@
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
             <Button Content="X" HorizontalAlignment="Left" Margin="483,10,0,0" VerticalAlignment="Top" Height="26" Width="29" Background="Transparent" Foreground="White" BorderBrush="{x:Null}" FontWeight="Bold" FontFamily="Tw Cen MT" FontSize="20" RenderTransformOrigin="-0.258,0.549" Click="close_window"/>
-            <TextBox x:Name="database_info_window_textbox" HorizontalAlignment="Center" Margin="0,41,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="494" Height="236" Style="{StaticResource Custom_Window}" BorderBrush="{x:Null}" SelectionBrush="{x:Null}" Focusable="False"/>
+            <TextBlock Name="database_info_textblock" TextWrapping="Wrap" Text="TextBlock" Margin="21,36,22,19" Style="{StaticResource Custom_Window}" HorizontalAlignment="Stretch" VerticalAlignment="Center"/>
 
         </Grid>
     </Border>

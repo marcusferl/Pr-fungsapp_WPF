@@ -27,3 +27,10 @@ Copy Right als Laufschrift
 
 Doppelklick auf Item in Datenbank -> öffnet neues Fenster mit der Antwort
 
+Tooltips zu den Menü Buttons
+
+Bei Verbindungsproblemen Client oder Serverseitig wird nun darauf hingewiesen
+
+Json Url nun in die App Config Implementiert 
+
+Info Frame erstellt

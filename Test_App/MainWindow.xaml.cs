@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
@@ -72,7 +73,7 @@ namespace Test_App
         }
         private void Ping_Url()
         {
-            var hostUrl = "git.weifer.org";
+            var hostUrl = "www.google.de";
 
             Ping ping = new Ping();
             try

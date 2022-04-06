@@ -19,21 +19,29 @@ namespace Test_App.Views
     /// </summary>
     public partial class Database_Info : Window
     {
-        public Database_Info()
+        public Database_Info(string text)
         {
             InitializeComponent();
+            SetTextBlockText(text);
         }
+        // Macht das fenster mit linkem Mausklick verschiebbar
         private void Drag_Window(object sender, MouseButtonEventArgs e)
         {
             if (e.ChangedButton == MouseButton.Left)
                 this.DragMove();
 
         }
-
+        // Wird dem X Button zugewiesen um das Fenster zu schließen
         private void close_window(object sender, RoutedEventArgs e)
         {
-           var window = Application.Current.Windows.OfType<Window>().SingleOrDefault(x => x.IsActive);
+            var window = Application.Current.Windows.OfType<Window>().SingleOrDefault(x => x.IsActive);
             window.Close();
+        }
+
+        // Wird bei Fenster aufruf ausgeführt um den Parameter einzusetzen
+        public void SetTextBlockText(string text)
+        { 
+            database_info_textblock.Text = text;
         }
     }
 }

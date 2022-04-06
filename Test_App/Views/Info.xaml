@@ -6,27 +6,5 @@
       xmlns:local="clr-namespace:Test_App.Views"
       mc:Ignorable="d" 
       d:DesignHeight="525" d:DesignWidth="602">
-    <TextBlock
-  Name="MyWipedText"
-  Margin="20" 
-  Width="480" Height="100" FontSize="48" FontWeight="Bold" Foreground="Maroon">
-  Ist in Arbeit
-
-  <!-- Animates the text block's width. -->
-        <TextBlock.Triggers>
-            <EventTrigger RoutedEvent="TextBlock.Loaded">
-                <BeginStoryboard>
-                    <Storyboard>
-                        <DoubleAnimation
-            Storyboard.TargetName="MyWipedText" 
-            Storyboard.TargetProperty="(TextBlock.Width)"
-            To="0.0" Duration="0:0:10" 
-            AutoReverse="True" RepeatBehavior="Forever" />
-                    </Storyboard>
-                </BeginStoryboard>
-            </EventTrigger>
-        </TextBlock.Triggers>
-    </TextBlock>
-
-
+    <TextBox Name="block" HorizontalAlignment="Center" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Center" Height="505" Width="582" Foreground="#FFFDFDFD" FontFamily="Verdana" FontSize="15" SelectionBrush="Blue" BorderBrush="{x:Null}" Background="Transparent" BorderThickness="0" IsReadOnly="True" IsInactiveSelectionHighlightEnabled="True"/>
 </Page>

@@ -2,6 +2,7 @@
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,23 +23,27 @@ namespace Test_App.Views
     /// </summary>
     public partial class Start : Page
     {
-        string json_url = "https://git.weifer.org/weifer/Pruefungskatalog/raw/branch/master/assets/questions_answers.json";
+        string json_url = ConfigurationManager.AppSettings.Get("JsonUrl"); //  Json File
 
         string get_questions = "";
         string get_answer = "";
-        //dynamic data = null;
+        List<int> list = new List<int>();
         public Start()
         {
             InitializeComponent();
-            // data = get_jsonData(json_url);
+            liste();
+
         }
-        // Buttons
+        // ### Buttons ###
+
+        // Gibt eine Zufallsfrage aus
         private void Next_Button_Click(object sender, RoutedEventArgs e)
         {
             get_question();
             question_textbox.Text = get_questions;
             answer_textbox.Text = "";
         }
+        // Gibt antwort auf Zufallsfrage aus
         private void Get_Answer_Button(object sender, RoutedEventArgs e)
         {
             if (get_answer.Length < 100)
@@ -50,41 +55,56 @@ namespace Test_App.Views
         }
 
 
-        // Json
+        // Convertiert Json von der Url
         dynamic get_jsonData(string url)
         {
             string json = "";
             var webclient = new System.Net.WebClient();
-            webclient.Encoding = Encoding.UTF8;
+            webclient.Encoding = Encoding.UTF8; // Damit umlaute angezeigt werde
             try
             {
                 json = webclient.DownloadString(url);
             }
-            catch (System.Net.WebException e)
+            catch
             {
-                throw e;
+                var window = Application.Current.Windows.OfType<Window>().SingleOrDefault(x => x.IsActive);
+                window.Close();
+                MessageBox.Show("Keine Verbindung zum Server möglich. Versuche es Später nocheinmal");
+
             }
             dynamic dynJson = JsonConvert.DeserializeObject(json);
             return dynJson;
 
         }
-        // Returns random String from a Random Json Object in JsonData
+        // Erstellt die Zufallsfrage
         public void get_question()
         {
-
+       
             dynamic json_data = get_jsonData(json_url);
-            int count = json_data.Count; // Count Json Objects
-            int random_number = new Random().Next(0, 40); // Random number between 0, and all Json Objects
-            get_questions = json_data[random_number][$"{random_number}"]["question"];
+            int random_number_counter = new Random().Next(0, list.Count); // Generiert eine Zufallsindex
+            int random_number = list.ElementAt(random_number_counter); // Gibt die Zahl am Listindex aus
+            
+            get_questions = json_data[random_number]["Question"];
+            get_answer = json_data[random_number]["Answer"];
 
-            get_answer = json_data[random_number][$"{random_number}"]["answer"];
+            list.RemoveAt(random_number_counter); // Entfernt die Zahl aus der Liste um Wiederholungen zu vermeiden
 
-
+            if (!list.Any())
+            {
+                MessageBox.Show("Alle Fragen erreicht!");
+            }
         }
 
-        private void question_textbox_TextChanged(object sender, TextChangedEventArgs e)
+        // Erstellen der Zahlen Liste für die Zufallszahl
+        public void liste()
         {
+            dynamic json_data = get_jsonData(json_url);
+            int count = json_data.Count;
 
+            for (int i = 0; i < count; i++)
+            {
+                list.Add(i);
+            }
         }
     }
 }

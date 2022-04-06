@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,7 +21,7 @@ namespace Test_App.Views
     /// </summary>
     public partial class Database : Page
     {
-
+        public string content { get; set; }
         public Database()
         {
             InitializeComponent();
@@ -28,6 +29,7 @@ namespace Test_App.Views
             OutputJson();
 
         }
+        // Parst Json von der Webseite in eine Liste
         public void OutputJson()
 
         {
@@ -36,7 +38,7 @@ namespace Test_App.Views
             webclient.Encoding = Encoding.UTF8;
             try
             {
-                json = webclient.DownloadString("https://git.weifer.org/weifer/Test_App/raw/branch/master/Test_App/Ressources/data.json");
+                json = webclient.DownloadString(ConfigurationManager.AppSettings.Get("JsonUrl"));
             }
             catch
             {
@@ -47,37 +49,27 @@ namespace Test_App.Views
 
             datalist.ItemsSource = Newtonsoft.Json.JsonConvert.DeserializeObject<List<Ressources.Datas>>(json);
         }
-
+        // Ändert die Hintergrundfarbe beim betreten mit der Maus
         private void border_MouseEnter(object sender, MouseEventArgs e)
         {
             Border border = sender as Border;
             border.Background = new SolidColorBrush(Colors.LightGray);
         }
-
+        // Ändert die Hintergrundfarbe beim verlassen der Maus
         private void border_MouseLeave(object sender, MouseEventArgs e)
         {
             Border border = sender as Border;
             border.Background = new SolidColorBrush(Colors.WhiteSmoke);
         }
-
+        // Öffnet neues Fenster (Database_Info) und übergibt die Antwort als string 
         private void itemOnClick(object sender, MouseButtonEventArgs e)
         {
             Ressources.Datas current = datalist.SelectedItem as Ressources.Datas;
-            Database_Info window = new Database_Info();
+            content = current.Answer;
+            Database_Info window = new Database_Info(content);
             window.Show();
-            
-            
-            /*TextBox textBox = new TextBox();
-            textBox.Style = (Style)FindResource("Custom_Window");
-            textBox.Text = "Antwort: \n" + current.Answer + "\n";
-
-            Window window = new Window();
-            window.Width = 550;
-            window.Height = 300;
-            window.SizeToContent = SizeToContent.WidthAndHeight;
-            window.Content = textBox;
-            window.Show();*/
         }
+
     }
 }
 
