@@ -38,7 +38,7 @@ namespace Test_App.Views
             {
                 json = webclient.DownloadString("https://git.weifer.org/weifer/Test_App/raw/branch/master/Test_App/Ressources/data.json");
             }
-            catch (System.Net.WebException e)
+            catch
             {
                 MainWindow.status.Fill = Brushes.Red;
                 MessageBox.Show("Server nicht erreichbar");
@@ -63,8 +63,11 @@ namespace Test_App.Views
         private void itemOnClick(object sender, MouseButtonEventArgs e)
         {
             Ressources.Datas current = datalist.SelectedItem as Ressources.Datas;
-
-            TextBox textBox = new TextBox();
+            Database_Info window = new Database_Info();
+            window.Show();
+            
+            
+            /*TextBox textBox = new TextBox();
             textBox.Style = (Style)FindResource("Custom_Window");
             textBox.Text = "Antwort: \n" + current.Answer + "\n";
 
@@ -73,7 +76,7 @@ namespace Test_App.Views
             window.Height = 300;
             window.SizeToContent = SizeToContent.WidthAndHeight;
             window.Content = textBox;
-            window.Show();
+            window.Show();*/
         }
     }
 }

@@ -80,7 +80,7 @@ namespace Test_App
                 PingReply result = ping.Send(hostUrl);
                 online_status.Fill = Brushes.Green;
             }
-            catch (Exception ex)
+            catch 
             {
                 online_status.Fill = Brushes.Red;
                 MessageBox.Show("Bitte deine Internetverbindung Prüfen und das Programm neu starten");
