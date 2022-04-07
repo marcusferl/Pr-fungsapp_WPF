@@ -2,7 +2,7 @@
   {
     "ID": "0",
     "Question": "Was versteht man unter dem Begriff Cross-Selling?",
-    "Answer": "Eine Verkaufsstrategie, bei der zu einem Produkt, zusätzliche ( inhalte, produkte, services etc...) angeboten werden, um einen höheren Umsatz und die Kundenanbindung zu erhöhen"
+    "Answer": "Eine Verkaufsstrategie, bei der zu einem Produkt, zusätzliche ( Inhalte, Produkte, Services etc...) angeboten werden, um einen höheren Umsatz und die Kundenanbindung zu erhöhen"
   },
   {
     "ID": "1",
@@ -12,7 +12,7 @@
   {
     "ID": "2",
     "Question": "Was versteht man im Netzwerkbereich unter dem Quality of Service",
-    "Answer": "Qos bezeichnet eine Art Güte bzw. Qualität eines Dienstes, welche über Ip-Netzwerke genutzt wird. Spezielle Echtzeitanwendungen wie VIDeo- oder Sprachkommunikation über IP-Netze unterliegen vielen Qualitätsbeeinträchtigungen, um diese (Latenz, Jitter, Paketverlust) entgegenzuwirken gibt es verschiedene Möglichkeiten durch Priorisierung des Datenverkehrs, Datenreservierung, Datenraten limitierung die Datenkommunikation zu verbessern"
+    "Answer": "Qos bezeichnet eine Art Güte bzw. Qualität eines Dienstes, welche über Ip-Netzwerke genutzt wird. Spezielle Echtzeitanwendungen wie Video- oder Sprachkommunikation über IP-Netze unterliegen vielen Qualitätsbeeinträchtigungen, um diese (Latenz, Jitter, Paketverlust) entgegenzuwirken gibt es verschiedene Möglichkeiten durch Priorisierung des Datenverkehrs, Datenreservierung, Datenraten Limitierung die Datenkommunikation zu verbessern"
   },
   {
     "ID": "3",
@@ -32,7 +32,7 @@
   {
     "ID": "6",
     "Question": "Beschreibe den Begriff Pre-Sales-Angebot und nenne 2 Beispiele",
-    "Answer": "Unentgeldlicher Service, der zur Kunden und Auftragsgewinnung dient. Beispiele : Kostenlose Probefahrten / Kostenlose Informationsveranstaltungen / Kostenlose Kataloge oder Produktproben"
+    "Answer": "Unentgeltlicher Service, der zur Kunden und Auftragsgewinnung dient. Beispiele : Kostenlose Probefahrten / Kostenlose Informationsveranstaltungen / Kostenlose Kataloge oder Produktproben"
   },
   {
     "ID": "7",
@@ -42,7 +42,7 @@
   {
     "ID": "8",
     "Question": "Was versteht man in der Anwendungsentwicklung unter einem Mockup?",
-    "Answer": "Mockup ist ein Grafischer entwurf, von zum beispiel einer Webseite oder App. Es dient dazu IDeen und Konzepte bezüglich eines Designs zu visualisieren und zu evaluieren. Mockups müssen nicht perfekt sein, jedoch klar erkennen lassen, wo die Reise hingeht"
+    "Answer": "Mockup ist ein Grafischer Entwurf, von zum Beispiel einer Webseite oder App. Es dient dazu Ideen und Konzepte bezüglich eines Designs zu visualisieren und zu evaluieren. Mockups müssen nicht perfekt sein, jedoch klar erkennen lassen, wo die Reise hingeht"
   },
   {
     "ID": "9",
@@ -52,12 +52,12 @@
   {
     "ID": "10",
     "Question": "Was ist eine Nutzwertanalyse?",
-    "Answer": "Eine allgemeine EntscheIDungshilfe, bei der mithilfe eines Punkteverfahrens oder eines Scoring Modells, verschiedene Bewertungskriterien erstellt und verglichen. Der Punktemaßstab kann indivIDuell festgelegt werden"
+    "Answer": "Eine allgemeine Endscheidungshilfe, bei der mithilfe eines Punkteverfahrens oder eines Scoring Modells, verschiedene Bewertungskriterien erstellt und verglichen. Der Punktemaßstab kann individuell festgelegt werden"
   },
   {
     "ID": "11",
     "Question": "Vorteile einer Bedarfsanalyse.",
-    "Answer": "Vertrauen von Kunden wird gestärkt / IndivIDuelle Lösungen / Hebt sich von der Konkurrenz ab / Umsatz kann gesteigert werden / Langfristige Kundenbindung wird gestützt"
+    "Answer": "Vertrauen von Kunden wird gestärkt / Individuelle Lösungen / Hebt sich von der Konkurrenz ab / Umsatz kann gesteigert werden / Langfristige Kundenbindung wird gestützt"
   },
   {
     "ID": "12",
@@ -66,7 +66,7 @@
   },
   {
     "ID": "13",
-    "Question": "Welche VIDeo Schnittstellen sind für 4K und 8K Auflösung geeignet?",
+    "Question": "Welche Video Schnittstellen sind für 4K und 8K Auflösung geeignet?",
     "Answer": "HDMI 2.0 = 4K / HDMI 2.1 = 8K / DP ab 1.3 8K"
   },
   {
@@ -76,7 +76,7 @@
   },
   {
     "ID": "15",
-    "Question": "Was versteht man in der Anwendungsentwicklung unt dem Begriff IDE?",
+    "Question": "Was versteht man in der Anwendungsentwicklung unter dem Begriff IDE?",
     "Answer": "Integrierte Entwicklungsumgebung, ist eine Sammlung an Werkzeugen zur Softwareentwicklung die unter einer Einheitlichen Oberfläche agieren. Dazu gehören zum Beispiel: Compiler / Interpreter / Linker / Debugger / Editor"
   },
   {
@@ -86,7 +86,7 @@
   },
   {
     "ID": "17",
-    "Question": "Wie kann man mit hilfe des Terminals in Windows Namensauflösungen prüfen?",
+    "Question": "Wie kann man mit Hilfe des Terminals in Windows Namensauflösungen prüfen?",
     "Answer": "Mit den Befehlen: ping -a / nslookup / tracert"
   },
   {
@@ -107,27 +107,27 @@
   {
     "ID": "21",
     "Question": "Welche aufgaben hat ein DHCP Server in der IT-Struktur",
-    "Answer": "Ein DHCP verteilt automatisch freie Ip Adressen an Geräte, die eine Anfrage stellen. Er vermeIDet doppel Vergabe von IP-Adressen"
+    "Answer": "Ein DHCP verteilt automatisch freie Ip Adressen an Geräte, die eine Anfrage stellen. Er vermeidet doppelt Vergabe von IP-Adressen"
   },
   {
     "ID": "22",
-    "Question": "Was versteht man unter IndivIDualsoftware?",
+    "Question": "Was versteht man unter Individual Software?",
     "Answer": "Software die für einen bestimmten Anwender / eine bestimmte Anwendergruppe oder für einen speziellen Verwendungszweck entwickelt wurde."
   },
   {
     "ID": "23",
     "Question": "Nenne verschiedene Cloud Formen.",
-    "Answer": "Public - / Private - / HybrID - / Community - Cloud"
+    "Answer": "Public - / Private - / Hybrid - / Community - Cloud"
   },
   {
     "ID": "24",
-    "Question": "Was versteht man under einem Pflichtenheft?",
+    "Question": "Was versteht man unter einem Pflichtenheft?",
     "Answer": "Das Pflichtenheft beschreibt wie der Auftragnehmer die Anforderungen des Auftraggebers umsetzen möchte. Sobald der Auftraggeber das Pflichtenheft akzeptiert, wird das Projekt dazu gestartet"
   },
   {
     "ID": "25",
     "Question": "Was bedeutet EULA während des Installationsprozess?",
-    "Answer": "EULA ist gleich bedeutend wie AGB. In ihr sind Regeln festgelegt, welche bei der benutzung der Software eingehalten werden sollen"
+    "Answer": "EULA ist gleich bedeutend wie AGB. In ihr sind Regeln festgelegt, welche bei der Benutzung der Software eingehalten werden sollen"
   },
   {
     "ID": "26",
@@ -137,12 +137,12 @@
   {
     "ID": "27",
     "Question": "Was ist eine DMZ?",
-    "Answer": "Eine Demilitarisierte Zone trennt durch ein Subnetz mit Hilfe von Firewall - Routern, das Interne Netzwerk vom externen Netzwerk ab. Die Firewall Router verfügen über Regeln, welche bestimmen, wohin eingehende Packete geleitet werden"
+    "Answer": "Eine Demilitarisierte Zone trennt durch ein Subnetz mit Hilfe von Firewall - Routern, das Interne Netzwerk vom externen Netzwerk ab. Die Firewall Router verfügen über Regeln, welche bestimmen, wohin eingehende Pakete geleitet werden"
   },
   {
     "ID": "28",
     "Question": "Beschreibe das Modell Pay-Per-Use in der Informationstechnologie.",
-    "Answer": "PPU ist eine Finanzierungsmodell, bei dem es darum geht, nur die tatsächliche Nutzung von Hard oder Software abzurechnen. Heißt, man zahlt zum beispiel Stündlich"
+    "Answer": "PPU ist eine Finanzierungsmodell, bei dem es darum geht, nur die tatsächliche Nutzung von Hard oder Software abzurechnen. Heißt, man zahlt zum Beispiel Stündlich"
   },
   {
     "ID": "29",
@@ -161,7 +161,7 @@
   },
   {
     "ID": "32",
-    "Question": "UnterscheIDe die Begriffe: Malware, Ransomware und Trojaner.",
+    "Question": "Unterscheide die Begriffe: Malware, Ransomware und Trojaner.",
     "Answer": "Malware ist der Oberbegriff für Schadsoftware. Ransomware ist eine Erpressersoftware die Daten verschlüsselt. Trojaner sind harmlos wirkende Programme, welche im Hintergrund Schaden anrichtet"
   },
   {
@@ -172,16 +172,16 @@
   {
     "ID": "34",
     "Question": "Was versteht man unter einer Meilenstein Planung?",
-    "Answer": "Merkmale einer Meilenstein Planung sind: Form der Projektplanung / grobe Terminplanung / Meilensteine im Projekt transparent machen / übersicht über verzögerung / schaffung von Zwischenzielen / Leistungsfortschritts- orientiert"
+    "Answer": "Merkmale einer Meilenstein Planung sind: Form der Projektplanung / grobe Terminplanung / Meilensteine im Projekt transparent machen / Übersicht über Verzögerung / Schaffung von Zwischenzielen / Leistungsfortschritts- orientiert"
   },
   {
     "ID": "35",
     "Question": "Was bedeutet der Begriff Proprietäre Software?",
-    "Answer": "Proprietäre Software ist das Gegenteil von Open Source Software. Nutzung und weiterverbreitung sind durch Softwarepatente, Urheberrechte, Lizenzen stark eingeschränkt, ein Beispiel wäre Microsoft Windows"
+    "Answer": "Proprietäre Software ist das Gegenteil von Open Source Software. Nutzung und Weiterverbreitung sind durch Softwarepatente, Urheberrechte, Lizenzen stark eingeschränkt, ein Beispiel wäre Microsoft Windows"
   },
   {
     "ID": "36",
-    "Question": "Welchen Vorteil bringt der Einsatz von Dual Channel Technick?",
+    "Question": "Welchen Vorteil bringt der Einsatz von Dual Channel Technik?",
     "Answer": "Im Dual Channel Modus kann der Speichercontroller die Daten auf zwei Arbeitsspeichermodulen gleichzeitig aufteilen. Dadurch verdoppelt sich theoretisch die Datenrate"
   },
   {
@@ -191,8 +191,8 @@
   },
   {
     "ID": "38",
-    "Question": "UnterscheIDe die 3 Cloud - Computing Begriffe Iaas, Saas und Paas",
-    "Answer": "Iaas: Ersatz für Rechenzentrum / Saas: Software wird als Service zur verfügung gestellt / Paas: Architektur die Entwicklung und Laufzeitumgebung für Software bereitstellt"
+    "Question": "Unterscheide die 3 Cloud - Computing Begriffe Iaas, Saas und Paas",
+    "Answer": "Iaas: Ersatz für Rechenzentrum / Saas: Software wird als Service zur Verfügung gestellt / Paas: Architektur die Entwicklung und Laufzeitumgebung für Software bereitstellt"
   },
   {
     "ID": "39",
@@ -202,7 +202,7 @@
   {
     "ID": "40",
     "Question": "Welchem Zweck dient ein Angebotsvergleich?",
-    "Answer": "Grundlage für Zukünftige KaufentscheIDung, bei der z.b Preis, Qualität, Service, Lieferzeit und weitere verglichen werden"
+    "Answer": "Grundlage für Zukünftige Kauf Entscheidung, bei der z.b Preis, Qualität, Service, Lieferzeit und weitere verglichen werden"
   },
   {
     "ID": "41",
@@ -232,26 +232,26 @@
   {
     "ID": "46",
     "Question": "Welche Anwendungen oder Verfahren verwenden kryptografische Hashfunktionen?",
-    "Answer": "Integritätsprüfungen / Erzeugen von Prüfsummen / Sitzungs - Schlüssel / Einmal Passwörter / Speichern von Passwörtern / Digitale Signaturen"
+    "Answer": "Integritätsprüfungen / Erzeugen von Prüfsummen / Sitzung - Schlüssel / Einmal Passwörter / Speichern von Passwörtern / Digitale Signaturen"
   },
   {
     "ID": "47",
     "Question": "In der Informationssicherheit kommt es neben Sicherheits - und Datenschutzaspekten auch auf die Datenminimierung an. Welches sind die Ziele?",
-    "Answer": "So viel Daten wie nötig, mit so wenig Daten wie möglich. Daten minimierung ist einer der grundlegenden Regeln im Datenschutz"
+    "Answer": "So viel Daten wie nötig, mit so wenig Daten wie möglich. Daten Minimierung ist einer der grundlegenden Regeln im Datenschutz"
   },
   {
     "ID": "48",
     "Question": "Was sind die Ziele einer Machbarkeitsanalyse?",
-    "Answer": " Folgendes stellt sich bei einer Machbarkeitsanalyse raus : Realisierbarkeit eines Projekts / Organisatorisch umsetzbar / Rechtlich umsetzbar / lohnt es sich hinsichtlich der Wirtschaftlichkeit / Sind genug Ressoursen vorhanen / Zeitlich machbar"
+    "Answer": " Folgendes stellt sich bei einer Machbarkeitsanalyse raus : Realisierbarkeit eines Projekts / Organisatorisch umsetzbar / Rechtlich umsetzbar / lohnt es sich hinsichtlich der Wirtschaftlichkeit / Sind genug Ressourcen vorhanden / Zeitlich machbar"
   },
   {
     "ID": "49",
     "Question": "Was versteht man unter dem Begriff Green - IT?",
-    "Answer": "Die Nutzung von Informationstechnologie und Kommunikationstechnologie über deren gesammten Lebenszyklus hinweg ressoursend schonend gestalten. Video Konferenzen, statt fahrten zu Meetings / Stromsparmodis / Virtualisierungstechniken"
+    "Answer": "Die Nutzung von Informationstechnologie und Kommunikationstechnologie über deren gesamten Lebenszyklus hinweg ressourcend - schonend gestalten. Video Konferenzen, statt Fahrten zu Meetings / Stromsparmodis / Virtualisierungstechniken"
   },
   {
     "ID": "50",
-    "Question": "Erkläte den Begriff Infrastructure as a Service (IaaS)",
+    "Question": "Erkläre den Begriff Infrastructure as a Service (IaaS)",
     "Answer": "IaaS bedeutet ein traditionelles Rechenzentrum in einer Cloud virtuell abzubilden bzw. zu hosten, es werden keine Physischen Hosts mehr benötigt, da man nun Virtuell über die Cloud auf Rechnerinstanzen zugreifen kann."
   },
   {
@@ -271,8 +271,8 @@
   },
   {
     "ID": "54",
-    "Question": "Nenne die Vorteile von PaaS (Platform as a Service).",
-    "Answer": "Tools, Server und Prgrammierumgebungen werden in einer Cloud virtuell zur verfügung gestellt. Man spart sich die Kosten für den Aufbau einer IT - Infrastruktur. Paas bietet eine schnelle Berreitstellung von für die Entwicklung benötigten Tools/Software."
+    "Question": "Nenne die Vorteile von PaaS (Plattform as a Service).",
+    "Answer": "Tools, Server und Programmierumgebungen werden in einer Cloud virtuell zur Verfügung gestellt. Man spart sich die Kosten für den Aufbau einer IT - Infrastruktur. Paas bietet eine schnelle Bereitstellung von für die Entwicklung benötigten Tools/Software."
   },
   {
     "ID": "55",
@@ -282,12 +282,12 @@
   {
     "ID": "56",
     "Question": "Worin unterscheiden sich die Lichtwellenleiter der Single - und Multimodefasern?",
-    "Answer": "Der Singlemode Glasfaserkern ist wesentlich dünner als der Multimodefasernkern. Dadurch unterschedien sich die übertragungsreichweiten.\nSinglemode bis 10000 Meter / Multimode bis 2000 Meter."
+    "Answer": "Der Singlemode Glasfaserkern ist wesentlich dünner als der Multimodefasernkern. Dadurch unterscheiden sich die übertragungsreichweiten.\nSinglemode bis 10000 Meter / Multimode bis 2000 Meter."
   },
   {
     "ID": "57",
-    "Question": "Was versteht man unter dem Begriff Bottum Up Ansatz beim Projektstrukturplan?",
-    "Answer": "Im Grunde geht es darum Teilprobleme abzugrenzen, diese zu lösen um das Gesammtproblem zu beheben."
+    "Question": "Was versteht man unter dem Begriff Bottom Up Ansatz beim Projektstrukturplan?",
+    "Answer": "Im Grunde geht es darum Teilprobleme abzugrenzen, diese zu lösen um das Gesamtproblem zu beheben."
   },
   {
     "ID": "58",
@@ -297,6 +297,31 @@
   {
     "ID": "59",
     "Question": "Was versteht man bei den Leitsystemen unter einem Mehrliniensystem?",
-    "Answer": "Untergeordnete Stellen, erhalten von mehreren übergeordnetetn stellen, Weisungen."
+    "Answer": "Untergeordnete Stellen, erhalten von mehreren übergeordneten stellen, Weisungen."
+  },
+  {
+    "ID": "60",
+    "Question": "Welche Vor - und Nachteile hat ein Notebook?",
+    "Answer": "Vorteile: Akkubetrieb / Wlan / integrierte Maus / Tastatur / wenig Platz für die Nutzung nötig / geringer Stromverbrauch / Mobil \n Nachteile: Aufrüstung umständlich / Display klein / oft kein Ziffernblock / hohes Gewicht gegenüber Tablets / proprietäres Netzteil."
+  },
+  {
+    "ID": "61",
+    "Question": "Was versteht man in einem Rechenzentrum unter Skalierbarkeit?",
+    "Answer": "Wenn man während des Betriebs des Rechenzentrum, Speichervolumen, RAM Größe, Cpu Kerne einer Virtuellen Maschine zuweisen oder ändern kann ist ein Beispiel für Skalierbarkeit"
+  },
+  {
+    "ID": "62",
+    "Question": "Welche Merkmale besitzt eine Europäische Gemeinschaft?",
+    "Answer": "Eine EG besitzt eine Rechtpersönlichkeit / ist eine Kapitalgesellschaft / Mindestkapital beträgt 120000 Euro / Monistisches oder Dualistisches System."
+  },
+  {
+    "ID": "63",
+    "Question": "Was versteht man unter einem Convertible",
+    "Answer": "Ein Convertible ist eine Art Notebook / Netbook als auch Tablet. Es verfügt über eine physische Tastatur, kann aber auch wie ein Tablet via Touch bedient werden."
+  },
+  {
+    "ID": "64",
+    "Question": "Welche allgemeine Anforderungen werden an ein Datenbanksystem gestellt?",
+    "Answer": " Datenunabhänigkeit / effizienter Speicherzugriff / paraeller Datenzugriff / Datenkonsistens / Datenintegrität / Datensicherheit / Wiederherstellungsverfahren / Keine o. Kontrollierte Redundanz"
   }
 ]
