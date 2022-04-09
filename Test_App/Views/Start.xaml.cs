@@ -24,15 +24,15 @@ namespace Test_App.Views
     public partial class Start : Page
     {
         string json_url = ConfigurationManager.AppSettings.Get("JsonUrl"); //  Json File
-
         string get_questions = "";
         string get_answer = "";
-        List<int> list = new List<int>();
+
+        List<Ressources.Datas> dataList = new List<Ressources.Datas>();
         public Start()
         {
             InitializeComponent();
-            liste();
-
+            //liste();
+            get_jsonData(json_url);
         }
         // ### Buttons ###
 
@@ -54,9 +54,8 @@ namespace Test_App.Views
             answer_textbox.Text = get_answer;
         }
 
-
-        // Convertiert Json von der Url
-        dynamic get_jsonData(string url)
+        // Convertiert Json von der Url in ein Listenobjekt
+        private void get_jsonData(string url)
         {
             string json = "";
             var webclient = new System.Net.WebClient();
@@ -72,39 +71,25 @@ namespace Test_App.Views
                 MessageBox.Show("Keine Verbindung zum Server möglich. Versuche es Später nocheinmal");
 
             }
-            dynamic dynJson = JsonConvert.DeserializeObject(json);
-            return dynJson;
+            dataList = JsonConvert.DeserializeObject<List<Ressources.Datas>>(json);
 
         }
-        // Erstellt die Zufallsfrage
-        public void get_question()
+        // Erstellt die Zufallsfrage, entfernt sie dann von der Liste
+        private void get_question()
         {
-       
-            dynamic json_data = get_jsonData(json_url);
-            int random_number_counter = new Random().Next(0, list.Count); // Generiert eine Zufallsindex
-            int random_number = list.ElementAt(random_number_counter); // Gibt die Zahl am Listindex aus
-            
-            get_questions = json_data[random_number]["Question"];
-            get_answer = json_data[random_number]["Answer"];
+            int random_number = new Random().Next(0, dataList.Count); // Generiert eine Zufallsindex
+          
+            get_questions = dataList.ElementAt(random_number).Question; 
+            get_answer = dataList.ElementAt(random_number).Answer;
+            dataList.RemoveAt(random_number);
 
-            list.RemoveAt(random_number_counter); // Entfernt die Zahl aus der Liste um Wiederholungen zu vermeiden
-
-            if (!list.Any())
+            // Wenn alle Fragen durch sind
+            if (!dataList.Any())
             {
                 MessageBox.Show("Alle Fragen erreicht!");
             }
         }
 
-        // Erstellen der Zahlen Liste für die Zufallszahl
-        public void liste()
-        {
-            dynamic json_data = get_jsonData(json_url);
-            int count = json_data.Count;
 
-            for (int i = 0; i < count; i++)
-            {
-                list.Add(i);
-            }
-        }
     }
 }

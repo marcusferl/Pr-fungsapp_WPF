@@ -26,7 +26,7 @@
             </Grid.ColumnDefinitions>
             <StackPanel Grid.Row="1">
                 <Button Content="Home" HorizontalAlignment="Center"  VerticalAlignment="Top" Height="59" Width="198" BorderBrush="{x:Null}" Style="{StaticResource Button_Hover}" Click="home_on_click" FontFamily="Tw Cen MT" />
-                <Button Content="Test" HorizontalAlignment="Center"  VerticalAlignment="Top" Height="59" Width="198" BorderBrush="{x:Null}" Style="{StaticResource Button_Hover}" Click="start_on_click" FontFamily="Tw Cen MT" ToolTip="Teste dein Wissen"/>
+                <Button Content="Teste dich!" HorizontalAlignment="Center"  VerticalAlignment="Top" Height="59" Width="198" BorderBrush="{x:Null}" Style="{StaticResource Button_Hover}" Click="start_on_click" FontFamily="Tw Cen MT" ToolTip="Teste dein Wissen"/>
                 <Button Content="Datenbank" HorizontalAlignment="Center"  VerticalAlignment="Top" Height="59" Width="198" BorderBrush="{x:Null}" Style="{StaticResource Button_Hover}" Click="datenbank_on_click" FontFamily="Tw Cen MT" ToolTip="Eine Liste aller Fragaen auf einem Blick"/>
                 <Button Content="Info" HorizontalAlignment="Center"  VerticalAlignment="Top" Height="59" Width="198" BorderBrush="{x:Null}" Style="{StaticResource Button_Hover}" Click="info_on_click" FontFamily="Tw Cen MT"/>
                 <Button Content="Quit" HorizontalAlignment="Center"  VerticalAlignment="Top" Height="59" Width="198" BorderBrush="{x:Null}" Style="{StaticResource Button_Hover}" Click="exit_on_click" FontFamily="Tw Cen MT"/>

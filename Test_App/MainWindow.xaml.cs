@@ -36,9 +36,6 @@ namespace Test_App
 
         }
 
-
-
-
         // Buttons
         private void home_on_click(object sender, RoutedEventArgs e)
         {
@@ -71,6 +68,8 @@ namespace Test_App
                 this.DragMove();
 
         }
+
+        // Networkcheck
         private void Ping_Url()
         {
             var hostUrl = "www.google.de";

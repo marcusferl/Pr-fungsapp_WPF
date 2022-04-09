@@ -43,7 +43,7 @@ namespace Test_App.Views
             catch
             {
                 MainWindow.status.Fill = Brushes.Red;
-                MessageBox.Show("Server nicht erreichbar");
+                MessageBox.Show("Server nicht erreichbar!");
             }
 
 

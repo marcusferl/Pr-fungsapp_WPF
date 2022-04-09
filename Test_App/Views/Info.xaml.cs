@@ -32,7 +32,7 @@ namespace Test_App.Views
                 "Marcus Ferl\n\n" +
                 "Oder eine Email an:\n" +
                 "support@weifer.de\n" +
-                "\nFalls jemand meine Arbeit unterstützen will, (die Fragen waren nicht kostenlis):\n\n" +
+                "\nFalls jemand meine Arbeit unterstützen will, (die Fragen waren nicht kostenlos):\n\n" +
                 "Paypal: marcus@weifer.de\n" +
                 "Bitcoin: 17ruVoy3NXooM5yRbva9Kz898hB75XYqtx\n";
 
