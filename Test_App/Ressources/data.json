@@ -323,5 +323,85 @@
     "ID": "64",
     "Question": "Welche allgemeine Anforderungen werden an ein Datenbanksystem gestellt?",
     "Answer": " Datenunabhänigkeit / effizienter Speicherzugriff / paraeller Datenzugriff / Datenkonsistens / Datenintegrität / Datensicherheit / Wiederherstellungsverfahren / Keine o. Kontrollierte Redundanz"
+  },
+  {
+    "ID": "65",
+    "Question": "Erkläre den Unterschied zwischen einem Objekt und einer Klasse.",
+    "Answer": "In einer Klasse sind die Definitionen hinterlegt, die ein Objekt ausmachen. Attribute und Methoden werden in einer Klasse hinterlegt.\n Das Objekt ist eine Instanz der Klasse."
+  },
+  {
+    "ID": "66",
+    "Question": "Welche anforderungen an Hard und Software werden an einen Datenserver gestellt?",
+    "Answer": "Mehrfach Netzteil / Mehrfacher Netzwerkzugriff / Mehrfach Plattensystem (Raid) / Ordnerfreigaben / geringe Latenz / Backups / Fernzugriff / Dynamische Speicherplatz anschaffung"
+  },
+  {
+    "ID": "67",
+    "Question": "Erläutere den Unterschied zwsichen ADSL,VDSL und SDSL.",
+    "Answer": "Asymmentrie Digital Supscriber Line = Downloadrate ist immer höher als die Uploadrate.\nVery High Speed Digital Supscriber Line = Schneller als ADSL und auch hier Downrate höher als Uprate.\n Symetric Digital Supscriber Line = Down und Upload raten sind gleich. Wird z.B bei Voip eingesetzt."
+  },
+  {
+    "ID": "68",
+    "Question": "Wie berechnet man die Wirkleistung von elektrischen Geräten?",
+    "Answer": "Wirkleistung = Spannung mal Stromstärke.\nBeispiel: 230V Spannung * 16 A Stromstärke = 3680Wh = 3,68 Kwh"
+  },
+  {
+    "ID": "69",
+    "Question": "Was sollte man beim Verschrotten von Datenträgern unbedingt beachten?",
+    "Answer": "Alle Daten sind fachgerecht zu löschen. Anschließend werden die Datenträger fachgerecht bei zugelassenen Entsorgungsunternehmen entsorgt."
+  },
+  {
+    "ID": "70",
+    "Question": "Was bedeutet der Begriff MFA und wo kommt sie zum Einsatz?",
+    "Answer": "Multi Factor Authentication ist eine erweiterte Form der zugangsberechtigung, der über mehrere unabhängige Verfahren/Merkmale prüft ob eine der Zugang berechtigt ist."
+  },
+  {
+    "ID": "71",
+    "Question": "Was ist ein Host - Bus Adapter?",
+    "Answer": "Der Host - Bus Adapter bezeichnet eine Netzwerkhardware, welche in einem Server installier ist, um damit ein oder mehrere Datenspeichergeräte zu erreichen."
+  },
+  {
+    "ID": "72",
+    "Question": "Wie ist eine Stablinienorganisation aufgebaut?",
+    "Answer": "Das Stabliniensystem ist eine ergänzung zum Einliniensystem. Die Stabsstellen sollen andere Abteilungen bei ihren Aufgaben entlasten und unterstützen."
+  },
+  {
+    "ID": "73",
+    "Question": "Erläutere den Begriff der doppelten Buchführung.",
+    "Answer": "Auch Soll - und Haben - Buchung genannt.\nJeder Geschäfftsvorfall wir doppelt gebucht, um den Zweck, Mittelherkunft und Mittelverwendung, besser nachvollziehen zu können."
+  },
+  {
+    "ID": "74",
+    "Question": "Welche Kommandos oder Werkzeuge gibt es um unter Linux eine IPV4 Adresse eines Netzwerkadapters anzuzeigen?",
+    "Answer": "ifconfig / ip addr show / im Netzwerkmanager"
+  },
+  {
+    "ID": "75",
+    "Question": "Nenne Einsatzbereiche und Verfahren von Symetrischen Schlüsseln.",
+    "Answer": "WPA2 / WiMAX/ WPA3 / SSH / VPN - Software "
+  },
+  {
+    "ID": "76",
+    "Question": "Welche Aufgabe hat ein Netzwerkrouter?",
+    "Answer": "Ein Netzwerkrouter leitet Netzwerkpackete zwischen mehreren Rechnernetzen weiter. Das weiterleiten der Datenpakete geschieht auf IP ebene (Layer 3)."
+  },
+  {
+    "ID": "77",
+    "Question": "Erläutere den Unterschied zwischen einem differentiellen und inkrementen Backup",
+    "Answer": "Bei dem differetiellen Backup werden alle Daten gesichert, die sich seit dem letzten Vollbackup geändert haben.\nBeim inkrementiellen Backup werden alle Daten gesichert, die sich seit dem letztem inkrementellen Backup geändert haben."
+  },
+  {
+    "ID": "78",
+    "Question": "Nenne die Hauptziele der Datensicherheit",
+    "Answer": "Vertraulichkeit / Verfügbarkeit / Integrität"
+  },
+  {
+    "ID": "79",
+    "Question": "Wie errechnet sich der Gewinn eines Unternehmens?",
+    "Answer": "Gewinn = Erlös (Einnahmen durch Verkauf)  minus Kosten ( Fixkosten )"
+  },
+  {
+    "ID": "80",
+    "Question": "Erkläre den Begriff Saas",
+    "Answer": "Software as a Service bedeutet, dass Software in der Cloud zur verfügung gestellt wird. Zugriff hat man oft über einen Browser.\nDie Software wird also gehostet und der User kann von überall aus darauf zugreifen ein Beispiel wäre Offic.live oder Github"
   }
 ]
