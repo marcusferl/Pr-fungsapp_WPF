@@ -403,5 +403,45 @@
     "ID": "80",
     "Question": "Erkläre den Begriff Saas",
     "Answer": "Software as a Service bedeutet, dass Software in der Cloud zur verfügung gestellt wird. Zugriff hat man oft über einen Browser.\nDie Software wird also gehostet und der User kann von überall aus darauf zugreifen ein Beispiel wäre Offic.live oder Github"
+  },
+  {
+    "ID": "81",
+    "Question": "Worin unterscheiden sich Datensicherheit und Datenschutz?",
+    "Answer": "Datensicherheit verfolgt drei Schutzziele und die art der Daten spielt keine Rolle.\nBei der Datensicherheit geht es um personenbezogene Daten und das Ziel diese zu schützen."
+  },
+  {
+    "ID": "82",
+    "Question": "Nenne 4 Features, die verhidern, dass während des Startvorganga von Win 10 Schadsoftware geladen werden können",
+    "Answer": "Sicher Start\nVertrauenswürdiger Start\nAntischadsoftware Früchstart\nKontrollierter Start"
+  },
+  {
+    "ID": "83",
+    "Question": "Erläutere den Unterschied zwischen Partitionierung und Formatierung.",
+    "Answer": "Partitionierung: Bei einer Partitionierung, wird der Speicher einer Festplatte in logisch einzelne Volumen aufgeteilt.\nFormatierung Bei einer Formatierung wird das Dataisystem der jeweiligen Partition festgelegt."
+  },
+  {
+    "ID": "84",
+    "Question": "Mit welchen maßnahmen kann eine drathlose Netzwerkverbindung (Wlan/Wifi) abgesichert werden?",
+    "Answer": "Authentifizierungsmethoden (WPA2/WPA3)\nEinsatz von RADIUS - Servers\nEinsatz von Macfiltern\nVPN Verbindung\nClient Zertifikat"
+  },
+  {
+    "ID": "85",
+    "Question": "Beschreibe den Begriff Pre - Sale - Angebot und nenne 2 Beispiele.",
+    "Answer": "Angebote die eine Kaufentscheidung erleichtern sollen:\nProbefahrten\nProduktproben\nZugaben"
+  },
+  {
+    "ID": "86",
+    "Question": "Beschreibe die Aufgabe und Funktionsweise von 'chmod' in Linux.",
+    "Answer": "Change Mode ist ein Befehl/Programm, mit dem man Datairechte angeben kann.\nEs regelt berechtigungen zu Read, Write, Execcute.\n(rwx -> 777 = Volle Berechtigung)"
+  },
+  {
+    "ID": "87",
+    "Question": "Was bedeutet S.M.A.R.T im zusammenhang mit Festplatten?",
+    "Answer": "S.M.A.R.T ist ein Überwachungs/Analysewerkzeug für Datenträger.\nBei einem S.M.A.R.T Test, werden Informationen wie Laufzeit, Error Rate, Einschaltzeit, Temperaturen, Ausschaltzähler uvm. geliefert.\n Anhand dieser Daten kann man Fehler erkennen oder eine Vorhersage eines möglichen Ausfalles machen."
+  },
+  {
+    "ID": "88",
+    "Question": "Welche Kriterien müssen erfüllt sein um Wahrenannahme zu verwigern?",
+    "Answer": "Falsch adressiert\nTranzportschäden\nAnzahl der Packstücke falsch"
   }
 ]
