@@ -2,17 +2,17 @@
   {
     "ID": "0",
     "Question": "Was versteht man unter dem Begriff Cross-Selling?",
-    "Answer": "Eine Verkaufsstrategie, bei der zu einem Produkt, zusätzliche ( Inhalte, Produkte, Services etc...) angeboten werden, um einen höheren Umsatz und die Kundenanbindung zu erhöhen"
+    "Answer": "Eine Verkaufsstrategie, bei der zu einem Produkt, zusätzliche ( Inhalte, Produkte, Services etc...) angeboten werden,\n um einen höheren Umsatz und die Kundenanbindung zu erhöhen"
   },
   {
     "ID": "1",
     "Question": "Welche Aufgaben hat ein Domain Name System (DNS) in einer Windows Domänen - Landschaft bzw. Active Desktop?",
-    "Answer": "DNS ist der wichtigste Dienst in IP-basierten Netzwerken. Konkret wird dabei der angefragte Name in eine Ip-Adresse übersetzt und als Ergebnis der Anfrage zurück geliefert. In Windowsbasierten Domänen kommt zusätzlich der Reverse Lookup Anfrage die Aufgabe zu, eine angefragte Ip- Adresse als Name zu ermitteln und als Ergebnis zurückzuliefern."
+    "Answer": "DNS ist der wichtigste Dienst in IP-basierten Netzwerken.\nKonkret wird dabei der angefragte Name in eine Ip-Adresse übersetzt und als Ergebnis der Anfrage zurück geliefert.\nIn Windowsbasierten Domänen kommt zusätzlich der Reverse Lookup Anfrage die Aufgabe zu,\neine angefragte Ip- Adresse als Name zu ermitteln und als Ergebnis zurückzuliefern."
   },
   {
     "ID": "2",
-    "Question": "Was versteht man im Netzwerkbereich unter dem Quality of Service",
-    "Answer": "Qos bezeichnet eine Art Güte bzw. Qualität eines Dienstes, welche über Ip-Netzwerke genutzt wird. Spezielle Echtzeitanwendungen wie Video- oder Sprachkommunikation über IP-Netze unterliegen vielen Qualitätsbeeinträchtigungen, um diese (Latenz, Jitter, Paketverlust) entgegenzuwirken gibt es verschiedene Möglichkeiten durch Priorisierung des Datenverkehrs, Datenreservierung, Datenraten Limitierung die Datenkommunikation zu verbessern"
+    "Question": "Was versteht man im Netzwerkbereich unter dem Quality of Service?",
+    "Answer": "Qos bezeichnet eine Art Güte bzw. Qualität eines Dienstes, welche über Ip-Netzwerke genutzt wird.\nSpezielle Echtzeitanwendungen wie Video- oder Sprachkommunikation über IP-Netze unterliegen vielen Qualitätsbeeinträchtigungen, um diese (Latenz, Jitter, Paketverlust) entgegenzuwirken gibt es verschiedene Möglichkeiten durch Priorisierung des Datenverkehrs, Datenreservierung, Datenraten Limitierung die Datenkommunikation zu verbessern."
   },
   {
     "ID": "3",
@@ -101,7 +101,7 @@
   },
   {
     "ID": "20",
-    "Question": "Welche regeln sollte man beim telefonischem Kundensupport beachten?",
+    "Question": "Welche regeln sollte man beim telefonischen Kundensupport beachten?",
     "Answer": "Kunden nicht reizen / Immer zuhören / Ausreden lassen / nicht Wiedersprechen / Hinterfragen anhand von den W - Fragen"
   },
   {
@@ -216,7 +216,7 @@
   },
   {
     "ID": "43",
-    "Question": "Was versteht man unter dem Begriff Cross - Selling",
+    "Question": "Was versteht man unter dem Begriff Cross - Selling?",
     "Answer": "Cross - Selling ist eine Verkaufsstrategie, bei der zu einem Produkt zusätzliche passende Produkte oder Services angeboten werden, um einen Höheren Umsatz zu erreichen und die Kundenbindung zu erhöhen"
   },
   {
