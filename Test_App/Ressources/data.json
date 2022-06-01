@@ -426,8 +426,8 @@
   },
   {
     "ID": "85",
-    "Question": "Beschreibe den Begriff Pre - Sale - Angebot und nenne 2 Beispiele.",
-    "Answer": "Angebote die eine Kaufentscheidung erleichtern sollen:\nProbefahrten\nProduktproben\nZugaben"
+    "Question": "Mit welchen Maßnahmen, kann man die Kundenzufriedenheit erhöhen?",
+    "Answer": "Rabatte\nSonderaktionen\nEinladungen zu Events\nFeedback einholen\nBewertungsportale"
   },
   {
     "ID": "86",
@@ -443,5 +443,20 @@
     "ID": "88",
     "Question": "Welche Kriterien müssen erfüllt sein um Wahrenannahme zu verwigern?",
     "Answer": "Falsch adressiert\nTranzportschäden\nAnzahl der Packstücke falsch"
+  },
+  {
+    "ID": "89",
+    "Question": "Was ist ein Netzplan?",
+    "Answer": "Ein Netzplan ist eine Visualisierung von der Terminplanung eines Projekts.\nKritische Pfade, Pufferzeiten als auch Gesammtpufferzeiten der einzelnen Aktivitäten sind gut erkennbar."
+  },
+  {
+    "ID": "90",
+    "Question": "Welche ´Vorteile ergeben sich durch den Einsatz von VLAN`s (Virtual Local Area Network)",
+    "Answer": "-Netzwerke können in Gruppen unterteilt werden\n-Priorisierungen des Datenverkehrs sind möglich\n-eine bessere Lastenverteilung ist möglich\n-Trennung des Datenverkehrs nach Anwendung möglich"
+  },
+  {
+    "ID": "91",
+    "Question": "Nenne die 4 transportorientierten Schichten des OSI Modells und erläutere deren Aufgaben.",
+    "Answer": "Bitübertragungsschicht: Stellt die Physische Verbindung zu den aktiven Netzwerkkomponenten her.\nSicherungsschicht: Sie gewährleistet eine zuverlässige und fehlerfreie Übertragung und den Zugriff auf Übertragungsmedien (Switch, Access Point)\nVermittlungsschicht: Routing von Datenpaketen zum nächsten Knoten. Ipv4 / Ipv6 Bereitstellung.\nTransportschicht: Zuordnung von Datenpaketen zu einer Anwendung."
   }
 ]

@@ -32,7 +32,6 @@ namespace Test_App
             frame.NavigationService.Navigate(new Views.HomeView());
             Ping_Url();
             status = online_status;
-          
 
         }
 

@@ -46,7 +46,6 @@ namespace Test_App.Views
                 MessageBox.Show("Server nicht erreichbar!");
             }
 
-
             datalist.ItemsSource = Newtonsoft.Json.JsonConvert.DeserializeObject<List<Ressources.Datas>>(json);
         }
         // Ändert die Hintergrundfarbe beim betreten mit der Maus
