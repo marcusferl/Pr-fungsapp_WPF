@@ -2,47 +2,47 @@
   {
     "ID": "0",
     "Question": "Was versteht man unter dem Begriff Cross-Selling?",
-    "Answer": "Eine Verkaufsstrategie, bei der zu einem Produkt, zusätzliche ( Inhalte, Produkte, Services etc...) angeboten werden, um einen höheren Umsatz und die Kundenanbindung zu erhöhen"
+    "Answer": "Eine Verkaufsstrategie, bei der zu einem Produkt, zusätzliche ( Inhalte, Produkte, Services etc...) angeboten werden,\n um einen höheren Umsatz und die Kundenanbindung zu erhöhen"
   },
   {
     "ID": "1",
     "Question": "Welche Aufgaben hat ein Domain Name System (DNS) in einer Windows Domänen - Landschaft bzw. Active Desktop?",
-    "Answer": "DNS ist der wichtigste Dienst in IP-basierten Netzwerken. Konkret wird dabei der angefragte Name in eine Ip-Adresse übersetzt und als Ergebnis der Anfrage zurück geliefert. In Windowsbasierten Domänen kommt zusätzlich der Reverse Lookup Anfrage die Aufgabe zu, eine angefragte Ip- Adresse als Name zu ermitteln und als Ergebnis zurückzuliefern."
+    "Answer": "DNS ist der wichtigste Dienst in IP-basierten Netzwerken.\nKonkret wird dabei, der angefragte Name in eine Ip-Adresse übersetzt und als Ergebnis der Anfrage zurück geliefert.\nIn Windowsbasierten Domänen kommt zusätzlich der Reverse Lookup Anfrage, die Aufgabe zu,\neine angefragte Ip- Adresse als Name zu ermitteln und als Ergebnis zurückzuliefern."
   },
   {
     "ID": "2",
-    "Question": "Was versteht man im Netzwerkbereich unter dem Quality of Service",
-    "Answer": "Qos bezeichnet eine Art Güte bzw. Qualität eines Dienstes, welche über Ip-Netzwerke genutzt wird. Spezielle Echtzeitanwendungen wie Video- oder Sprachkommunikation über IP-Netze unterliegen vielen Qualitätsbeeinträchtigungen, um diese (Latenz, Jitter, Paketverlust) entgegenzuwirken gibt es verschiedene Möglichkeiten durch Priorisierung des Datenverkehrs, Datenreservierung, Datenraten Limitierung die Datenkommunikation zu verbessern"
+    "Question": "Was versteht man im Netzwerkbereich unter dem Quality of Service?",
+    "Answer": "Qos bezeichnet eine Art Güte bzw. Qualität eines Dienstes, welche über Ip-Netzwerke genutzt wird.\nSpezielle Echtzeitanwendungen wie Video- oder Sprachkommunikation über IP-Netze unterliegen vielen Qualitätsbeeinträchtigungen, um diese (Latenz, Jitter, Paketverlust) ,\nentgegenzuwirken gibt es verschiedene Möglichkeiten durch Priorisierung des Datenverkehrs, Datenreservierung, Datenraten Limitierung die Datenkommunikation zu verbessern."
   },
   {
     "ID": "3",
     "Question": "Was sind Bestandteile einer Risikoanalyse?",
-    "Answer": "Sie dient dem Zweck der Risikobeurteilung, Risikobewältigung und Risikokommunikation, um Transparenz über Art und Umfang von bestehenden Risiken zu schaffen. Risiken können durch Präventionsmaßnahmen offengelegt, vermieden oder zumindest reduziert werden"
+    "Answer": "Sie dient dem Zweck der Risikobeurteilung, Risikobewältigung und Risikokommunikation, um Transparenz über Art und Umfang von bestehenden Risiken zu schaffen.\nRisiken können durch Präventionsmaßnahmen offengelegt, vermieden oder zumindest reduziert werden"
   },
   {
     "ID": "4",
-    "Question": "Nenne 3 charakteristische Eigenschaften von Open Source Software",
-    "Answer": "Quelltext ist öffentlich und lesbar / darf beliebig genutzt, kopiert, verteilt werden / darf verändert und in veränderter Form weiter gegeben werden"
+    "Question": "Nenne 3 charakteristische Eigenschaften von Open Source Software.",
+    "Answer": "Quelltext ist öffentlich und lesbar / darf beliebig genutzt, kopiert, verteilt werden / darf verändert und in veränderter Form weitergegeben werden"
   },
   {
     "ID": "5",
     "Question": "In welchen Softwaresystem werden in der Regel Supportanfragen verarbeitet?",
-    "Answer": "Ticket-System / User-Helpdesk-System / Support-Ticket-System / Service-Ticket-System / Task-Tracking-System / Request-Tracking-System"
+    "Answer": "Ticket-System\nUser-Helpdesk-System\nSupport-Ticket-System\nService-Ticket-System\nTask-Tracking-System\nRequest-Tracking-System"
   },
   {
     "ID": "6",
-    "Question": "Beschreibe den Begriff Pre-Sales-Angebot und nenne 2 Beispiele",
-    "Answer": "Unentgeltlicher Service, der zur Kunden und Auftragsgewinnung dient. Beispiele : Kostenlose Probefahrten / Kostenlose Informationsveranstaltungen / Kostenlose Kataloge oder Produktproben"
+    "Question": "Beschreibe den Begriff Pre-Sales-Angebot und nenne 2 Beispiele.",
+    "Answer": "Unentgeltlicher Service, der zur Kunden und Auftragsgewinnung dient.\nBeispiele : Kostenlose Probefahrten / Kostenlose Informationsveranstaltungen / Kostenlose Kataloge oder Produktproben"
   },
   {
     "ID": "7",
-    "Question": "Welche allgemeine Anforderungen werden an ein Datenbanksystem gestellt?",
-    "Answer": "Datenunabhängigkeit / Effizienter Speicherzugriff / Paralleler Datenzugriff / Datenkonsistenz / Datenintegrität / Gemeinsame Datenbasis / Datensicherheit / Wiederherstellungsverfahren / Abfragesprache / Keine bzw. kontrollierte Redundanz"
+    "Question": "Mit welchen Maßnahmen, kann man die Kundenzufriedenheit erhöhen?",
+    "Answer": "Rabatte\nSonderaktionen\nEventeinladungen\nBewertungsportale\nQualitätsversprechen halten"
   },
   {
     "ID": "8",
     "Question": "Was versteht man in der Anwendungsentwicklung unter einem Mockup?",
-    "Answer": "Mockup ist ein Grafischer Entwurf, von zum Beispiel einer Webseite oder App. Es dient dazu Ideen und Konzepte bezüglich eines Designs zu visualisieren und zu evaluieren. Mockups müssen nicht perfekt sein, jedoch klar erkennen lassen, wo die Reise hingeht"
+    "Answer": "Mockup ist ein Grafischer Entwurf, von zum Beispiel einer Webseite oder App.\nEs dient dazu Ideen und Konzepte bezüglich eines Designs zu visualisieren und zu evaluieren.\nMockups müssen nicht perfekt sein, jedoch klar erkennen lassen, wo die Reise hingeht"
   },
   {
     "ID": "9",
@@ -52,7 +52,7 @@
   {
     "ID": "10",
     "Question": "Was ist eine Nutzwertanalyse?",
-    "Answer": "Eine allgemeine Endscheidungshilfe, bei der mithilfe eines Punkteverfahrens oder eines Scoring Modells, verschiedene Bewertungskriterien erstellt und verglichen. Der Punktemaßstab kann individuell festgelegt werden"
+    "Answer": "Eine allgemeine Endscheidungshilfe, bei der mithilfe eines Punkteverfahrens oder eines Scoring Modells, verschiedene Bewertungskriterien erstellt und verglichen werden.\nDer Punktemaßstab kann individuell festgelegt werden"
   },
   {
     "ID": "11",
@@ -67,7 +67,7 @@
   {
     "ID": "13",
     "Question": "Welche Video Schnittstellen sind für 4K und 8K Auflösung geeignet?",
-    "Answer": "HDMI 2.0 = 4K / HDMI 2.1 = 8K / DP ab 1.3 8K"
+    "Answer": "Ab HDMI 2.0 = 4K\nHDMI 2.1 = 8K\nDP ab 1.3 8K"
   },
   {
     "ID": "14",
@@ -82,7 +82,7 @@
   {
     "ID": "16",
     "Question": "Erläutere den Unterschied zwischen Compiler und Interpreter.",
-    "Answer": "Der Compiler wandelt den Quellcode in lesbare Maschinensprache um, erst dann wird der Code ausgeführt. Fehler fallen somit vor der Kompilierung auf. Der Interpreter verarbeitet den Quellcode erst zu Laufzeit, Zeile für Zeile"
+    "Answer": "Der Compiler wandelt den Quellcode in lesbare Maschinensprache um, erst dann wird der Code ausgeführt. Fehler fallen somit vor der Kompilierung auf.\nDer Interpreter verarbeitet den Quellcode erst zu Laufzeit, Zeile für Zeile"
   },
   {
     "ID": "17",
@@ -101,12 +101,12 @@
   },
   {
     "ID": "20",
-    "Question": "Welche regeln sollte man beim telefonischem Kundensupport beachten?",
+    "Question": "Welche Regeln sollte man beim telefonischen Kundensupport beachten?",
     "Answer": "Kunden nicht reizen / Immer zuhören / Ausreden lassen / nicht Wiedersprechen / Hinterfragen anhand von den W - Fragen"
   },
   {
     "ID": "21",
-    "Question": "Welche aufgaben hat ein DHCP Server in der IT-Struktur",
+    "Question": "Welche Aufgaben hat ein DHCP Server in der IT-Struktur",
     "Answer": "Ein DHCP verteilt automatisch freie Ip Adressen an Geräte, die eine Anfrage stellen. Er vermeidet doppelt Vergabe von IP-Adressen"
   },
   {
@@ -127,7 +127,7 @@
   {
     "ID": "25",
     "Question": "Was bedeutet EULA während des Installationsprozess?",
-    "Answer": "EULA ist gleich bedeutend wie AGB. In ihr sind Regeln festgelegt, welche bei der Benutzung der Software eingehalten werden sollen"
+    "Answer": "EULA ist gleichbedeutend wie AGB. In ihr sind Regeln festgelegt, welche bei der Benutzung der Software eingehalten werden sollen"
   },
   {
     "ID": "26",
@@ -202,7 +202,7 @@
   {
     "ID": "40",
     "Question": "Welchem Zweck dient ein Angebotsvergleich?",
-    "Answer": "Grundlage für Zukünftige Kauf Entscheidung, bei der z.b Preis, Qualität, Service, Lieferzeit und weitere verglichen werden"
+    "Answer": "Grundlage für Zukünftige Kauf Entscheidung, bei der z.B Preis, Qualität, Service, Lieferzeit und weitere verglichen werden"
   },
   {
     "ID": "41",
@@ -216,7 +216,7 @@
   },
   {
     "ID": "43",
-    "Question": "Was versteht man unter dem Begriff Cross - Selling",
+    "Question": "Was versteht man unter dem Begriff Cross - Selling?",
     "Answer": "Cross - Selling ist eine Verkaufsstrategie, bei der zu einem Produkt zusätzliche passende Produkte oder Services angeboten werden, um einen Höheren Umsatz zu erreichen und die Kundenbindung zu erhöhen"
   },
   {
@@ -227,7 +227,7 @@
   {
     "ID": "45",
     "Question": "Welche Merkmale hat ein Virtual Private Network?",
-    "Answer": "Ein VPN bietet eine geschützte Verbindung, bei der mit Hilfe von Verschlüsselungstechnologien die Authentizität, Vertraulichkeit und Integrität der Daten sicher gestellt werden. \n Es gibt bei VPN 3 Verbindungsarten (End - End, End- Site, Site - Site)"
+    "Answer": "Ein VPN bietet eine geschützte Verbindung, bei der mit Hilfe von Verschlüsselungstechnologien die Authentizität, Vertraulichkeit und Integrität der Daten sichergestellt werden. \n Es gibt bei VPN 3 Verbindungsarten (End - End, End- Site, Site - Site)"
   },
   {
     "ID": "46",
@@ -236,7 +236,7 @@
   },
   {
     "ID": "47",
-    "Question": "In der Informationssicherheit kommt es neben Sicherheits - und Datenschutzaspekten auch auf die Datenminimierung an. Welches sind die Ziele?",
+    "Question": "In der Informationssicherheit kommt es neben Sicherheit - und Datenschutzaspekten auch auf die Datenminimierung an. Welches sind die Ziele?",
     "Answer": "So viel Daten wie nötig, mit so wenig Daten wie möglich. Daten Minimierung ist einer der grundlegenden Regeln im Datenschutz"
   },
   {
@@ -247,7 +247,7 @@
   {
     "ID": "49",
     "Question": "Was versteht man unter dem Begriff Green - IT?",
-    "Answer": "Die Nutzung von Informationstechnologie und Kommunikationstechnologie über deren gesamten Lebenszyklus hinweg ressourcend - schonend gestalten. Video Konferenzen, statt Fahrten zu Meetings / Stromsparmodis / Virtualisierungstechniken"
+    "Answer": "Die Nutzung von Informationstechnologie und Kommunikationstechnologie über deren gesamten Lebenszyklus hinweg Ressourcen - schonend gestalten. Video Konferenzen, statt Fahrten zu Meetings / Stromsparmodis / Virtualisierungstechniken"
   },
   {
     "ID": "50",
@@ -322,7 +322,7 @@
   {
     "ID": "64",
     "Question": "Welche allgemeine Anforderungen werden an ein Datenbanksystem gestellt?",
-    "Answer": " Datenunabhänigkeit / effizienter Speicherzugriff / paraeller Datenzugriff / Datenkonsistens / Datenintegrität / Datensicherheit / Wiederherstellungsverfahren / Keine o. Kontrollierte Redundanz"
+    "Answer": " Datenunabhänigkeit / effizienter Speicherzugriff / paralleler Datenzugriff / Datenkonsistens / Datenintegrität / Datensicherheit / Wiederherstellungsverfahren / Keine o. Kontrollierte Redundanz"
   },
   {
     "ID": "65",
@@ -331,12 +331,12 @@
   },
   {
     "ID": "66",
-    "Question": "Welche anforderungen an Hard und Software werden an einen Datenserver gestellt?",
+    "Question": "Welche Anforderungen an Hard und Software werden an einen Datenserver gestellt?",
     "Answer": "Mehrfach Netzteil / Mehrfacher Netzwerkzugriff / Mehrfach Plattensystem (Raid) / Ordnerfreigaben / geringe Latenz / Backups / Fernzugriff / Dynamische Speicherplatz anschaffung"
   },
   {
     "ID": "67",
-    "Question": "Erläutere den Unterschied zwsichen ADSL,VDSL und SDSL.",
+    "Question": "Erläutere den Unterschied zwischen ADSL,VDSL und SDSL.",
     "Answer": "Asymmentrie Digital Supscriber Line = Downloadrate ist immer höher als die Uploadrate.\nVery High Speed Digital Supscriber Line = Schneller als ADSL und auch hier Downrate höher als Uprate.\n Symetric Digital Supscriber Line = Down und Upload raten sind gleich. Wird z.B bei Voip eingesetzt."
   },
   {
@@ -352,7 +352,7 @@
   {
     "ID": "70",
     "Question": "Was bedeutet der Begriff MFA und wo kommt sie zum Einsatz?",
-    "Answer": "Multi Factor Authentication ist eine erweiterte Form der zugangsberechtigung, der über mehrere unabhängige Verfahren/Merkmale prüft ob eine der Zugang berechtigt ist."
+    "Answer": "Multi Factor Authentication ist eine erweiterte Form der Zugangs Berechtigung, der über mehrere unabhängige Verfahren/Merkmale prüft ob eine der Zugang berechtigt ist."
   },
   {
     "ID": "71",
@@ -376,7 +376,7 @@
   },
   {
     "ID": "75",
-    "Question": "Nenne Einsatzbereiche und Verfahren von Symetrischen Schlüsseln.",
+    "Question": "Nenne Einsatzbereiche und Verfahren von Symmetrischen Schlüsseln.",
     "Answer": "WPA2 / WiMAX/ WPA3 / SSH / VPN - Software "
   },
   {
@@ -386,8 +386,8 @@
   },
   {
     "ID": "77",
-    "Question": "Erläutere den Unterschied zwischen einem differentiellen und inkrementen Backup",
-    "Answer": "Bei dem differetiellen Backup werden alle Daten gesichert, die sich seit dem letzten Vollbackup geändert haben.\nBeim inkrementiellen Backup werden alle Daten gesichert, die sich seit dem letztem inkrementellen Backup geändert haben."
+    "Question": "Erläutere den Unterschied zwischen einem differentiellen und Inkrementen Backup",
+    "Answer": "Bei dem differentiellen Backup werden alle Daten gesichert, die sich seit dem letzten Vollbackup geändert haben.\nBeim inkrementellen Backup werden alle Daten gesichert, die sich seit dem letztem inkrementellen Backup geändert haben."
   },
   {
     "ID": "78",
@@ -402,17 +402,17 @@
   {
     "ID": "80",
     "Question": "Erkläre den Begriff Saas",
-    "Answer": "Software as a Service bedeutet, dass Software in der Cloud zur verfügung gestellt wird. Zugriff hat man oft über einen Browser.\nDie Software wird also gehostet und der User kann von überall aus darauf zugreifen ein Beispiel wäre Offic.live oder Github"
+    "Answer": "Software as a Service bedeutet, dass Software in der Cloud zur Verfügung gestellt wird. Zugriff hat man oft über einen Browser.\nDie Software wird also gehostet und der User kann von überall aus darauf zugreifen ein Beispiel wäre Offic.live oder Github"
   },
   {
     "ID": "81",
     "Question": "Worin unterscheiden sich Datensicherheit und Datenschutz?",
-    "Answer": "Datensicherheit verfolgt drei Schutzziele und die art der Daten spielt keine Rolle.\nBei der Datensicherheit geht es um personenbezogene Daten und das Ziel diese zu schützen."
+    "Answer": "Datensicherheit verfolgt drei Schutzziele und die art der Daten spielt keine Rolle.\nBeim Datenschutz geht es um personenbezogene Daten und das Ziel diese zu schützen."
   },
   {
     "ID": "82",
-    "Question": "Nenne 4 Features, die verhidern, dass während des Startvorganga von Win 10 Schadsoftware geladen werden können",
-    "Answer": "Sicher Start\nVertrauenswürdiger Start\nAntischadsoftware Früchstart\nKontrollierter Start"
+    "Question": "Nenne 4 Features, die verhindern, dass während des Startvorganga von Win 10 Schadsoftware geladen werden können",
+    "Answer": "Sicher Start\nVertrauenswürdiger Start\nAntischadsoftware Frühstart\nKontrollierter Start"
   },
   {
     "ID": "83",
@@ -421,7 +421,7 @@
   },
   {
     "ID": "84",
-    "Question": "Mit welchen maßnahmen kann eine drathlose Netzwerkverbindung (Wlan/Wifi) abgesichert werden?",
+    "Question": "Mit welchen Maßnahmen kann eine drathlose Netzwerkverbindung (Wlan/Wifi) abgesichert werden?",
     "Answer": "Authentifizierungsmethoden (WPA2/WPA3)\nEinsatz von RADIUS - Servers\nEinsatz von Macfiltern\nVPN Verbindung\nClient Zertifikat"
   },
   {
@@ -432,16 +432,16 @@
   {
     "ID": "86",
     "Question": "Beschreibe die Aufgabe und Funktionsweise von 'chmod' in Linux.",
-    "Answer": "Change Mode ist ein Befehl/Programm, mit dem man Datairechte angeben kann.\nEs regelt berechtigungen zu Read, Write, Execcute.\n(rwx -> 777 = Volle Berechtigung)"
+    "Answer": "Change Mode ist ein Befehl/Programm, mit dem man Datairechte angeben kann.\nEs regelt Berechtigungen zu Read, Write, Execcute.\n(rwx -> 777 = Volle Berechtigung)"
   },
   {
     "ID": "87",
-    "Question": "Was bedeutet S.M.A.R.T im zusammenhang mit Festplatten?",
+    "Question": "Was bedeutet S.M.A.R.T im Zusammenhang mit Festplatten?",
     "Answer": "S.M.A.R.T ist ein Überwachungs/Analysewerkzeug für Datenträger.\nBei einem S.M.A.R.T Test, werden Informationen wie Laufzeit, Error Rate, Einschaltzeit, Temperaturen, Ausschaltzähler uvm. geliefert.\n Anhand dieser Daten kann man Fehler erkennen oder eine Vorhersage eines möglichen Ausfalles machen."
   },
   {
     "ID": "88",
-    "Question": "Welche Kriterien müssen erfüllt sein um Wahrenannahme zu verwigern?",
+    "Question": "Welche Kriterien müssen erfüllt sein um Warenannahme zu verweigern?",
     "Answer": "Falsch adressiert\nTranzportschäden\nAnzahl der Packstücke falsch"
   },
   {
