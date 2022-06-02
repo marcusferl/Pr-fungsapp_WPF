@@ -458,5 +458,70 @@
     "ID": "91",
     "Question": "Nenne die 4 transportorientierten Schichten des OSI Modells und erläutere deren Aufgaben.",
     "Answer": "Bitübertragungsschicht: Stellt die Physische Verbindung zu den aktiven Netzwerkkomponenten her.\nSicherungsschicht: Sie gewährleistet eine zuverlässige und fehlerfreie Übertragung und den Zugriff auf Übertragungsmedien (Switch, Access Point)\nVermittlungsschicht: Routing von Datenpaketen zum nächsten Knoten. Ipv4 / Ipv6 Bereitstellung.\nTransportschicht: Zuordnung von Datenpaketen zu einer Anwendung."
+  },
+  {
+    "ID": "92",
+    "Question": "Wie lautet das Ergebnis der folgenden Abfrage?\nSELECT ABS(ROUND(-15.44,1));",
+    "Answer": "Das Ergebnis lautet 15.4"
+  },
+  {
+    "ID": "93",
+    "Question": "Wie heißen die Ebenen des 3-Ebenen-Modells bei der Datenbankprogrammierung?",
+    "Answer": "Externe Ebene\nKonzeptionelle Ebene\nInterne Ebene"
+  },
+  {
+    "ID": "94",
+    "Question": "Wofür steht die Abkürzung SQL?",
+    "Answer": "\tStructured Query Language"
+  },
+  {
+    "ID": "95",
+    "Question": "In einer SQL-Anweisung ist das Wort WHERE?",
+    "Answer": "Ein reserviertes Wort\nEine Klausel"
+  },
+  {
+    "ID": "96",
+    "Question": "Welche Anweisungen zählen zur Data Definition Language (DDL)?",
+    "Answer": "Create\nAlter\nDrop\nRename"
+  },
+  {
+    "ID": "97",
+    "Question": "Welches sind gültige Kardinalitäts-Angaben in einem ER-Modell?",
+    "Answer": "1:1\n1:n\n:m"
+  },
+  {
+    "ID": "98",
+    "Question": "Was geschieht, wenn bei einer UPDATE-Anweisung die WHERE-Klausel fehlt?",
+    "Answer": "Die Wertzuweisung mit SET wird auf alle Zeilen der Tabelle angewendet."
+  },
+  {
+    "ID": "99",
+    "Question": "Was ist ein Prozess?",
+    "Answer": "Input - Verarbeitung - Output"
+  },
+  {
+    "ID": "100",
+    "Question": "Was ist das magische Dreieck im Projektmanagement",
+    "Answer": "Das magische Dreieck besteht aus drei Parametern, die zusammen zu einem Ziel führen:\nZeit\nKosten\nQualität"
+  },
+  {
+    "ID": "101",
+    "Question": "Was sind die Aufgaben eines Projektleiters?",
+    "Answer": "Kostenüberwachung\nTermineinhaltung\nKonfliktmanagement\nKommunikation\nDokumentation\nArbeitsaufteilung\nProjektplan\nPräsentationen\nMotivation"
+  },
+  {
+    "ID": "102",
+    "Question": "Nenne die vier Projektphasen.",
+    "Answer": "Initialisierung\nPlanung\nDurchführung\nAbschluss"
+  },
+  {
+    "ID": "103",
+    "Question": "Welche vier Prozessarten gibt es?",
+    "Answer": "Kernprozesse\nUnterstützende Prozesse\nFührungsprozesse\nOptimierungs - Analyseprozesse"
+  },
+  {
+    "ID": "104",
+    "Question": "Was sind SMART-Ziele",
+    "Answer": "S = spezifisch\nM = messbar\nA = attraktiv\nR = realistisch\nT = terminierbar"
   }
 ]
