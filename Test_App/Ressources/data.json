@@ -216,8 +216,8 @@
   },
   {
     "ID": "43",
-    "Question": "Was versteht man unter dem Begriff Cross - Selling?",
-    "Answer": "Cross - Selling ist eine Verkaufsstrategie, bei der zu einem Produkt zusätzliche passende Produkte oder Services angeboten werden, um einen Höheren Umsatz zu erreichen und die Kundenbindung zu erhöhen"
+    "Question": "Was ist ein NAS?",
+    "Answer": "Ein Network Attached Storage ist ein Speichergerät, welches man in ein Netzwerk integrieren kann.\nEs kann für die im netzwerkbefindlichen Clienten als Zentraler Datenträger dienen.\nEs ist skalierbar und dient sozusagen als private Cloud."
   },
   {
     "ID": "44",
