@@ -523,5 +523,10 @@
     "ID": "104",
     "Question": "Was sind SMART-Ziele",
     "Answer": "S = spezifisch\nM = messbar\nA = attraktiv\nR = realistisch\nT = terminierbar"
+  },
+  {
+    "ID": "105",
+    "Question": "Was versteht man unter dem Begriff Stakeholder?",
+    "Answer": "Stakeholder sind alle Gruppen, die ein Interesse an der Zielerreichung eines Projektes haben\nund durch die Aktivität eines Unternehmens direkt oder indirekt betroffen sind."
   }
 ]
