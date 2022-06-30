@@ -411,8 +411,8 @@
   },
   {
     "ID": "82",
-    "Question": "Nenne 4 Features, die verhindern, dass während des Startvorganga von Win 10 Schadsoftware geladen werden können",
-    "Answer": "Sicher Start\nVertrauenswürdiger Start\nAntischadsoftware Frühstart\nKontrollierter Start"
+    "Question": "Nenne 4 Features, die verhindern, dass während des Startvorganga von Win 10 Schadsoftware geladen werden können.",
+    "Answer": "Sicherer Start\nVertrauenswürdiger Start\nAntischadsoftware Frühstart\nKontrollierter Start"
   },
   {
     "ID": "83",
@@ -528,5 +528,105 @@
     "ID": "105",
     "Question": "Was versteht man unter dem Begriff Stakeholder?",
     "Answer": "Stakeholder sind alle Gruppen, die ein Interesse an der Zielerreichung eines Projektes haben\nund durch die Aktivität eines Unternehmens direkt oder indirekt betroffen sind."
+  },
+  {
+    "ID": "106",
+    "Question": "Beschreiben typische Merkmale des Client - Server - Modells.",
+    "Answer": "Server stellt Dienste bereit\nClients fragen Dienste bei Servern an\nEin Server bedient einen oder mehrere Clients\nDienste können z.B. Webservice, Datai- und Mailingsysteme sein\nKommunikationsregeln und Informationsaustausch zwischen Client und Server übernehmen Protokolle"
+  },
+  {
+    "ID": "107",
+    "Question": "Unterscheide die Mailingprotokolle IMAP(S), SMTP(S) und POP3(S) nach ihren Eigenschaften.",
+    "Answer": "IMAP:\nEmail Kommunikationsprotokoll für den Posteingang. Über SSL/TLS gesichert. \nMails, Ordnerstrukturen und Einstellungen werden auf dem Server gespeichert und lokal synchronisiert.\nSMTP:\nEin Protokoll für den Postausgang.\nMithilfe von SSL/TSL wird die Authentifizierung sowie Vertraulichkeit und Integrität der übertragenen Nachrichten gewährleistet.\nPOP3:\nEbenfalls für den Posteingang, mit Verschlüsselung SSL/TSL.\nIm Gegensatz zum IMAP Protokoll werden POP3 Posteingänge heruntergeladen bzw. anschließend bei Bedarf gelöscht."
+  },
+  {
+    "ID": "108",
+    "Question": "Ordne folgende Aussage dem Vier-Ohren-Modell zu:\n1. Sie müssen pünktlich sein.\n2. Ich bin mit Ihnen nicht zufrieden.\n3. Sie haben nicht pünktlich geliefert.\n4. Ich kontrolliere Ihre Leistungen sehr genau.",
+    "Answer": "1. Appell\n2. Beziehung\n3. Sachebene\n4. Selbstoffenbarung"
+  },
+  {
+    "ID": "109",
+    "Question": "Was ist unter dem Begriff OEM-Software und OEM-Hardware zu verstehen?",
+    "Answer": "OEM Soft- oder Hardware wird nicht direkt vom Hersteller vertrieben. Sie wird an andere Unternehmen ausgeliefert und z.B. in verbindung mit anderer Soft-Hardware vertrieben.\nEin Beispiel für OEM Software wäre Windows auf Komplettsystemen im Mediamarkt.\n Hier sind meistens OEM versionen von Windows vorinstalliert.\n Ein Beispiel für OEM Hardware, sind z.B. IT Produkte bei Discountern, sie verkaufen Hardware welche woanders Produziert wird, unter ihren eigenen Markennamen."
+  },
+  {
+    "ID": "110",
+    "Question": "Welche Themen sind für einen Tüv geprüften IT-Sicherheitsbeauftragten im Unternehmen von Bedeutung?",
+    "Answer": "Informationssicherheit\nIS-Management-System nach ISO 27001\nIS-Management-System nach BSI IT-Grundschutz\nKonzept der Informationssicherheit\nAktuelle Themenbereiche und Konzepte der Informationssicherheit\nSicherheitsmaßnahmen/Konzepte im Hinblick, auf Organisation,Infrastruktur,Netzwerksicherheit etc..."
+  },
+  {
+    "ID": "110",
+    "Question": "Was versteht man in der Informationstechnologie unter dem Begriff Service Level Agreement (SLA)?",
+    "Answer": "Ein Service Level Agreement (SLA) ist ein Vertrag zwischen einem Dienstleistungsanbieter und seinen Kunden, der dokumentiert, welche Dienstleistungen der Anbieter erbringen wird,\nund der die Dienstleistungsstandards definiert, zu deren Einhaltung der Anbieter verpflichtet ist.\nZu diesen Vereinbarungen zählen beispielweise:\nZielsetzung\nUmfang der Dienstleistungen\nVeratnwortlichkeit der Service-Provider\nKundenverantwortlichkeit\nLeistungsindikatoren(Reaktionszeit,Lösungszeit, etc...\nStrafmaßnahmen für Vertragsbruch\nKommunikationswege"
+  },
+  {
+    "ID": "111",
+    "Question": "Erläutere das merhstufen Prinzip des First-,Second-,Third- Level-Supports.",
+    "Answer": "First-Level-Support: \nErste Anlaufstelle für alle Suportanfragen. Vollständige Datene- und Fallerfassung. Im Normalfall wird hier der Fall gelöst\nSecond-Level-Support:\nÜbernimmt die Fälle die zu Komplex sind und nicht durch den First-Level-Support gelöst werden konnten. Neuer Erkenntnisse oder Ergebnisse werden in eine Wissensdatenbank für den First-Level-Support eingetragen.\nThird-Level-Support:\nHöchste Eskalationsstufe. Hier wird der Fall von Spezialisten (Entwicklern) angenommen um eine Lösung zu finden oder einen Workaround zu entwickeln."
+  },
+  {
+    "ID": "112",
+    "Question": "Mit welchen Maßnahmen kann der Umweltschutz im IT-Betrieb verstärkt berücksichtigt werden?",
+    "Answer": "Kauf von Green-IT Komponenten\nNutzung von Standby\nSSD statt HDD\nAbschaltautomatiken\nVirtualisierung"
+  },
+  {
+    "ID": "113",
+    "Question": "Was wird in einem Lastenheft beschrieben?",
+    "Answer": "Das Lastenheft wird von dem Kunden, bzw. Auftraggeber erstellt und beinhaltet die Anforderungen und Wünsche des Kunden."
+  },
+  {
+    "ID": "114",
+    "Question": "Kundensupport, unterscheide zwischen geschlossenen Fragen und offenen Fragen.",
+    "Answer": "Geschlossene Fragen:\nJa oder Nein Fragen, z.B. 'Haben sie den Pc schon neu gestartet?'\n\nOffene Fragen:\n W-Fragen (Wer,wie,wieso,warum,wo,weshalb,wann...) z.B 'Welche Fehlermeldung wurde angezeigt?'."
+  },
+  {
+    "ID": "115",
+    "Question": "Wann spricht man von einem Käufermakt?",
+    "Answer": "Käufer sind in der besseren Position gegenüber dem Verkäufer. Ein typisches Beispiel hierfür ist der sogenannte Angebotsüberhang, der entsteht, wenn das Angebot die Nachfrage deutlich übersteigt"
+  },
+  {
+    "ID": "116",
+    "Question": "Was versteht man unter einer Bedarfsanalyse?",
+    "Answer": "Eine Analyseart zur Feststellung des Bedarfs an Waren, Dienstleistungen, Gütern oder Personal.\n"
+  },
+  {
+    "ID": "117",
+    "Question": "Ordne folgende WWAN-Technologien nach ihrer Geschwindigkeit, von langsam zu schnell.",
+    "Answer": "Edge -> UMTS -> HSDPA -> LTE -> 5G"
+  },
+  {
+    "ID": "118",
+    "Question": "Worauf sollte man bei der Beschaffung von IT-Hardware achten?",
+  "Answer": "Langlebigkeit der Hardware ( mind. 5 Jahre Hersteller-Support)\nSkalierbarkeit auf Basis vorhandener Hardware\nkostengünstiger Support\ngeringer Stromverbrauch und Abwärme\numweltfreundlich\nremote Management\nleicht austauschbar"
+  },
+  {
+    "ID": "119",
+    "Question": "Was versteht man unter Standardsoftware?",
+    "Answer": "Software die auf dem Freien Markt angeboten wird, Im gegensatz zur Individual Software muss sie vom Anwender selbst installiert bzw. angepasst werden."
+  },
+  {
+    "ID": "120",
+    "Question": "Was versteht man unter einen Thin Client",
+    "Answer": "Thin Clients nutzen Ressourcen, die über einen Server bereit gestellt werden.\nProgramme,Anwendungen und Daten werden vom Server bezogen und dort gespeichert.\nThin Clients sind Strom, Platzsparend und nicht so Teuer wie ein Fat Client(Desktop PC)."
+  },
+  {
+    "ID": "121",
+    "Question": "Was bedeuten Black-Box- und Withe-Box-Tasts?",
+    "Answer": "Black-Box-Test:\nBei diesem Testverfahren geht es darum die Ein und Ausgabe zu prüfen. Die Funktionsweisen des Programms wird ohne Kenntnisse über Implementierungen oder innere Funktionsweise getestet. \nWhite-Box-Test:\nBei diesem Testverfahren hingegen, geht der Blick auf die implementieten Algorithmus und überprüfung des Quellcodes."
+  },
+  {
+    "ID": "122",
+    "Question": "Welche Testverfahren gibt es in der Anwendungsentwicklung?",
+    "Answer": "Black-Box-Test\nWhite-Box-Test\nKomponententest\nUnittest\nModuktest\nIntegrationstest\nSystemtest\nLasttest\nAbnahnmetest"
+  },
+  {
+    "ID": "123",
+    "Question": "Welche Aufgaben übernimmt ein Datenbankmanagementsystem (DBMS)?",
+    "Answer": "Speicherung, Löschung, Veränderung von Daten\nVerwaltung der Metadaten\nGewährleistung der Datensicherheit und Datenschutz\n'Trifft vorkehrungen zur Datenintegrität\nUnterstützt die Optimierung von Abfragen\nErmöglicht Triggern und Stored Procedures"
+  },
+  {
+    "ID": "124",
+    "Question": "Mit welchen Werkzeugen kann man ein Projekt planen und überwachen?",
+    "Answer": "Netzplan\nGantt Diagramm\nProjektstrukturplan"
   }
 ]
