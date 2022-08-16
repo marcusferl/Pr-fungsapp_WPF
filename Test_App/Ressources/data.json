@@ -402,7 +402,7 @@
   {
     "ID": "80",
     "Question": "Erkläre den Begriff Saas",
-    "Answer": "Software as a Service bedeutet, dass Software in der Cloud zur Verfügung gestellt wird. Zugriff hat man oft über einen Browser.\nDie Software wird also gehostet und der User kann von überall aus darauf zugreifen ein Beispiel wäre Offic.live oder Github"
+    "Answer": "Software as a Service bedeutet, dass Software in der Cloud zur Verfügung gestellt wird. Zugriff hat man oft über einen Browser.\nDie Software wird also gehostet und der User kann von überall aus darauf zugreifen ein Beispiel wäre Offic.live"
   },
   {
     "ID": "81",
@@ -591,13 +591,13 @@
   },
   {
     "ID": "117",
-    "Question": "Ordne folgende WWAN-Technologien nach ihrer Geschwindigkeit, von langsam zu schnell: 5G, HSDPA, LTE, UMTS, Edege",
+    "Question": "Ordne folgende WWAN-Technologien nach ihrer Geschwindigkeit, von langsam zu schnell.",
     "Answer": "Edge -> UMTS -> HSDPA -> LTE -> 5G"
   },
   {
     "ID": "118",
     "Question": "Worauf sollte man bei der Beschaffung von IT-Hardware achten?",
-  "Answer": "Langlebigkeit der Hardware ( mind. 5 Jahre Hersteller-Support)\nSkalierbarkeit auf Basis vorhandener Hardware\nkostengünstiger Support\ngeringer Stromverbrauch und Abwärme\numweltfreundlich\nremote Management\nleicht austauschbar"
+    "Answer": "Langlebigkeit der Hardware ( mind. 5 Jahre Hersteller-Support)\nSkalierbarkeit auf Basis vorhandener Hardware\nkostengünstiger Support\ngeringer Stromverbrauch und Abwärme\numweltfreundlich\nremote Management\nleicht austauschbar"
   },
   {
     "ID": "119",
@@ -617,7 +617,7 @@
   {
     "ID": "122",
     "Question": "Welche Testverfahren gibt es in der Anwendungsentwicklung?",
-    "Answer": "Black-Box-Test\nWhite-Box-Test\nKomponententest\nUnittest\nModultest\nIntegrationstest\nSystemtest\nLasttest\nAbnahnmetest"
+    "Answer": "Black-Box-Test\nWhite-Box-Test\nKomponententest\nUnittest\nModuktest\nIntegrationstest\nSystemtest\nLasttest\nAbnahnmetest"
   },
   {
     "ID": "123",
@@ -628,5 +628,110 @@
     "ID": "124",
     "Question": "Mit welchen Werkzeugen kann man ein Projekt planen und überwachen?",
     "Answer": "Netzplan\nGantt Diagramm\nProjektstrukturplan"
+  },
+  {
+    "ID": "125",
+    "Question": "Nenne Möglichkeiten zur Datensicherung.",
+    "Answer": "Cloud\nFestplatten\nBandlaufwerke\nOptische Datenträger\nFlashspeicher"
+  },
+  {
+    "ID": "126",
+    "Question": "Erkläre den Unterschied von Backups zu Raid.",
+    "Answer": "RAID schützt nur gegen Festplattenausfall und ist unwirksam gegen:\nSchadsoftware\nVersehentliches löschen oder ändern von Daten\nStromausfall\nDateninkonsistenz"
+  },
+  {
+    "ID": "127",
+    "Question": "Erklär den Unterschied zwischen Backup, Archivierung, Synchronisierung.",
+    "Answer": "Backup: Stänsige und mehrfache Sicherheitskopien des aktiven Datenbestandes.\nArchivierung: Daten werden im Endzustand gesichert und nicht mehr verändert. Manipulationssichere speicherung.\nSynchronisation: Angleichen von Daten auf 2 oder mehreren verschiedenen Datenträgern oder Systemen."
+  },
+  {
+    "ID": "128",
+    "Question": "Welche Backupstrategien gibt es?",
+    "Answer": "Vollständig\nDifferenziell\nInkrementell"
+  },
+  {
+    "ID": "129",
+    "Question": "Welche Kriterien müssen für die Marktform des Polypols erfüllt sein?",
+    "Answer": "Polypol ist die bestmögliche Marktform der Marktwirtschaft (vollkommener Markt)\nViele Anbieter stehen sich gegenüber und treten in Konkurrenz."
+  },
+  {
+    "ID": "130",
+    "Question": "Welche Unternehmen sind in Deutschland Personengesellschaften?",
+    "Answer": "Gesellschaft bürgerlichen Rechts (Gbr)\nOffene Handelsgesellschaft (oHG)\nKommanditgesellschaft (KG)"
+  },
+  {
+    "ID": "131",
+    "Question": "Welche Bedingungen und welche Haftungsregeln gelten bei offenen Handelsgesellschaft (oHG)?",
+    "Answer": "Mindestens zwei Personen die sich zum Zweck eines vollkaufmännischen Handelsgewerbes zusammenschließen.\nGesellschafter haften voll."
+  },
+  {
+    "ID": "132",
+    "Question": "Nenne die Vorteile für ein User-Helpdesk-Ticketsystem.",
+    "Answer": "Ticketbearbeiter können auf die History zurückgreifen\nDient dem Service\nDurch die verschiedenen Level ist eine bessere Koordinierung möglich\nWissensdatenbank helfen bei Fehleranalysen und Wiederherstellungen\nKundenerfahrungen können gezielt gesammelt und ausgewertet werden."
+  },
+  {
+    "ID": "133",
+    "Question": "Was versteht man unter dem Begriff volkswirtschaftliche Sektoren?",
+    "Answer": "Sektor 1 (Primnärsektor/ Urproduktion) umfasst die Gewinnung von Rohstoffen, dazu gehören Landwirtschaft, Forstwirtschaft sowie Fischerei.\nSektor 2 (Sekundärsektor/ Industrieller Sektor) umfasst die Industrie und das verarbeitende Gewerbe.\nSektor 3 (Tertiärsektor/ Dienstleistungsektor) umfasst alle Dienstleistungen, die in einem Land gelseistet werden. Dazu gehören Ärzte, Banken. Handel, Versicherungen etc... ."
+  },
+  {
+    "ID": "134",
+    "Question": "Was versteht man unter der Marktform des Monopols?",
+    "Answer": "Monopol ist, wenn es für ein Gut oder Dienstleistung nur einen einzigen Anbieter gibt."
+  },
+  {
+    "ID": "135",
+    "Question": "Wann spricht man in der Wirtschaft von einem Angebotsoligopol?",
+    "Answer": "Wenn wenige Anbieter einer großen Nachfrage gegenüber stehen. EinBeispiel hierfür wären die Mobilfunkanbieter."
+  },
+  {
+    "ID": "136",
+    "Question": "Welche Funktionen bietet eine Dockingstation für Notebooks?",
+    "Answer": "Dockingstationen bieten meistens zusätzliche Schnitstellen, wie HDMI, DVI, DP, USB, Ethernet etc... diese können als erweiterungen genutzt werden, somit ist es zum Beispiel möglich eine Notebook mit 2 externen Monitoren zu betreiben."
+  },
+  {
+    "ID": "137",
+    "Question": "Welche Arten von Anforderungen gibt es an Software?",
+    "Answer": "Geschäftsanforderung\nBenutzeranforderung\nFunktionale Anforderung\nProjektanforderung"
+  },
+  {
+    "ID": "138",
+    "Question": "Welche Aufgaben und Ziele verfolgen die betrieblichen Grundfunktionen?",
+    "Answer": "Beschaffung (z.B einkauf von Roh-,Hilfs und Betriebsstoffen)\nProduktion (herstellen von materiellen Gütern/Waren sowie Dienstleistungen)\nAbsatz/Vertrieb (Verkauf der Produzierten Güter und Dienstleistungen)\nFinanzierung (alle Prozesse, die im Zusammenhang mit der finanziellen Versorgung stehen)"
+  },
+  {
+    "ID": "139",
+    "Question": "Welche Vertragsbestandteiler sollten in einem Vertrag zur Softwareerstellung geregelt sein?",
+    "Answer": "Vertragsgegenstand (Lastenheft)\nEntwicklung und Herstellung (Pflichtenheft)\nQualitätsstandard\nFertigstellungstermin\nNutzungsrechte\nHaftung\nAbnahme\nVergütung"
+  },
+  {
+    "ID": "140",
+    "Question": "Eine Unterbrechungsfreie Stromversorgung wird in 3 Klassen unterteilt. Nenne die 3 Klassen und erkläre ihre Wirkungsweise.",
+    "Answer": "Klasse 1 VFI:\nSchützt vor den Folgen eines Stromausfalls, Unterspannung, Überspannung als auch Frequenzschwankungen sowie vor Oberschwingungen\nKlasse 2 Vi:\nSchützt vor den Folgen eines Stromausfalls, vor Unterspannung und Überspannung\nKlasse 3 VFD:\nSchützt vor den Folgen eines Stromausfalls, jedoch mit einer Verzögerung von bis zu 10 ms."
+  },
+  {
+    "ID": "141",
+    "Question": "Was ist ein Organigramm",
+    "Answer": "Ein Organigramm ist ein Organisationsschaubild, welches übersicht der Standorte und Leitungen von einem Unternehmen zeigen.\nMan sieht einen namentliche Besetzung der verschiedenen Stellen."
+  },
+  {
+    "ID": "142",
+    "Question": "Wozu dient eine ABC - Analyse?",
+    "Answer": "Bei der ABC Analyse vergleicht man welche Kunden für den Hauptumsatz für ein Unternehmen verantwortlich sind und werden somit in Klasse A eingestuft.\nKlasse B sind der Durchschnitskunde und Klasse C sind die Kunden, welche am wenigsten zum Umsatz beitragen.\nSomit erhält man eine Art Ranking zum Umsatzerfolg."
+  },
+  {
+    "ID": "143",
+    "Question": "Ein Ausbildungsbetrieb ist ISO 9001 zertifiziert. Was bedeutet diese Norm für den Betrieb?",
+    "Answer": "Iso 9001 ist eine Zertifizierung für ein Weltweit anerkanntes Qualitätmanagementsystems, dessen Grundprinzipien\nKundenorientierung\nProzessorientierung\nstetige Verbesserung\nRisikomanagement\nsind."
+  },
+  {
+    "ID": "144",
+    "Question": "Was bedeutet das Label 'Energy Star'?",
+    "Answer": "Produkte mit Energy Star, verbrauchen im Vergleich zu anderen Geräten weniger Energie.\nSie senken wiederum Ihre Energiekosten und führen auch zu einer nachhaltigen Lebensweise"
+  },
+  {
+    "ID": "145",
+    "Question": "Welchen Qualitätskriterien unterliegt Software?",
+    "Answer": "Funktionalität\nBenutzbarkeit\nZuverlässigkeit\nEffizienz\nÜbertragbarkeit\nÄnderbarkeit\nWartbarkeit\nSicherheit"
   }
 ]
