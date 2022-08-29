@@ -10,10 +10,10 @@ und man viel weniger auf externe Bibliotheken wie z.B in Python abhängig ist.
 <br>
 
 
-![Getting Started](Images/app.png)
+![Getting Started](Test_App/Images/app.png)
 <br>
 <br>
-![Getting Started](Images/app_datenbank.png)
+![Getting Started](Test_App/Images/app_datenbank.png)
 
 <h4>#Randnotizen</h4>
 
